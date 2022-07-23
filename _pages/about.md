@@ -16,7 +16,7 @@ Currently, I'm a research intern at [MIT](https://www.mit.edu/) and [Stanford](h
 ## Education
 
 <img src="../images/sjtu.png" alt="sjtu" style="zoom:11%; float: left" /> [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/), China
- B.Eng. in Computer Science, advised by Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/) and Prof. [Yong Yu](http://www.cs.sjtu.edu.cn/en/PeopleDetail.aspx?id=140). Sep. 2019 - Jun. 2023.
+ B.Eng. in Computer Science, advised by Prof. [Yong Yu](http://www.cs.sjtu.edu.cn/en/PeopleDetail.aspx?id=140). Sep. 2019 - Present.
 
 
 
