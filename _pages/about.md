@@ -3,8 +3,7 @@ permalink: /
 title: "Biography"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
-  - /about/
+redirect_from:<br />  - /about/
   - /about.html
 ---
 
@@ -15,9 +14,7 @@ Currently, I'm a research intern at [MIT](https://www.mit.edu/) and [Stanford](h
 
 ## Education
 
-<img src="../images/sjtu.png" alt="sjtu" style="zoom:11%; float: left" /> &emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/), China
-
-B.Eng. in Computer Science, advised by Prof. [Yong Yu](http://www.cs.sjtu.edu.cn/en/PeopleDetail.aspx?id=140). Sep. 2019 - Present.
+<img src="../images/sjtu.png" alt="sjtu" style="zoom:11%; float: left" /> &emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/), China<br />&emsp;B.Eng. in Computer Science, advised by Prof. [Yong Yu](http://www.cs.sjtu.edu.cn/en/PeopleDetail.aspx?id=140). Sep. 2019 - Present.
 
 ## Research Experience
 
