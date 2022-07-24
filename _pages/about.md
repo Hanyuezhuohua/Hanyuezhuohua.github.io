@@ -23,7 +23,7 @@ Currently, I'm a research intern at [MIT](https://www.mit.edu/) and [Stanford](h
 <img src="../images/stanford3.png" alt="stanford" style="zoom:11.4%; float: left" />&emsp; [Stanford](https://www.stanford.edu/)  
 &emsp; Research Intern at [IRIS](https://irislab.stanford.edu/), advised by Prof. [Chelsea Finn](https://ai.stanford.edu/~cbfinn/). Mar. 2022 - Present
 
-<img src="../images/mit2.png" alt="mit" style="zoom:9%; float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)  
+<img src="../images/mit2.png" alt="mit" style="zoom:9%; float: left" />&emsp; [MIT](https://www.mit.edu/)  
 &emsp; Research Intern at [HanLab](https://hanlab.mit.edu/), advised by Prof. [Song Han](https://songhan.mit.edu/). Nov. 2021 - Present
 
 <img src="../images/sjtu.png" alt="sjtu" style="zoom:9%; float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)  
