@@ -16,7 +16,7 @@ Currently, I'm a research intern at [MIT](https://www.mit.edu/) and [Stanford](h
 ## Education
 
 <img src="../images/sjtu.png" alt="sjtu" style="zoom:9%; float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)  
-&emsp; B.Eng. in Computer Science, advised by Prof. [Yong Yu](http://www.cs.sjtu.edu.cn/en/PeopleDetail.aspx?id=140). Sep. 2019 - Present.
+&emsp; B.Eng. in Computer Science, advised by Prof. [Yong Yu](http://www.cs.sjtu.edu.cn/en/PeopleDetail.aspx?id=140). Sep. 2019 - Present
 
 ## Research Experience
 
@@ -27,5 +27,5 @@ Currently, I'm a research intern at [MIT](https://www.mit.edu/) and [Stanford](h
 &emsp; Research Intern at [HanLab](https://hanlab.mit.edu/), advised by Prof. [Song Han](https://songhan.mit.edu/). Nov. 2021 - Present
 
 <img src="../images/sjtu.png" alt="sjtu" style="zoom:9%; float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)  
-&emsp; Undergraduate at [ThinkLab](https://thinklab.sjtu.edu.cn/), advised by Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/). Jul. 2021 - Feb. 2022.
+&emsp; Undergraduate at [ThinkLab](https://thinklab.sjtu.edu.cn/), advised by Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/). Jul. 2021 - Feb. 2022
 
