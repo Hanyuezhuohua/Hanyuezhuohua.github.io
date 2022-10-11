@@ -31,11 +31,10 @@ Currently, I'm a research intern at [MIT](https://www.mit.edu/) and [Stanford](h
 
 ## Publications
 
-<font size=4.5>$\mathcal{preprint}$</font>
+<font size=4.5>$\mathcal{preprint}$</font>  
 * **BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation**  
 Zhijian Liu\*,Haotian Tang\*, Alexander Amini, **Xinyu Yang**, Huizi Mao, Daniela Rus, Song Han
 
-<font size=4.5>$\mathcal{2022}$</font>
-
+<font size=4.5>$\mathcal{2022}$</font>  
 * **Variational Inference for Training Graph Neural Networks in Low-Data Regime through Joint Structure-Label Estimation**  
 Danning Lao\*, **Xinyu Yang\***, Qitian Wu, Junchi Yan
