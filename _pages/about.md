@@ -29,11 +29,13 @@ Currently, I'm a research intern at [MIT](https://www.mit.edu/) and [Stanford](h
 <img src="../images/sjtu.png" alt="sjtu" style="zoom:9%; float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)  
 &emsp; Undergraduate at [ThinkLab](https://thinklab.sjtu.edu.cn/), advised by Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/). Jul. 2021 - Feb. 2022
 
-## Publications  
-$\mathcal{preprint}$   
+## Publications
+
+<font size=4.5>$\mathcal{preprint}$</font>
 * **BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation**  
 Zhijian Liu\*,Haotian Tang\*, Alexander Amini, **Xinyu Yang**, Huizi Mao, Daniela Rus, Song Han
 
-$\mathcal{2022}$   
-* **Variational Inference for Training Graph Neural Networks in Low-Data Regime through Joint Structure-Label Estimation**   
+<font size=4.5>$\mathcal{2022}$</font>
+
+* **Variational Inference for Training Graph Neural Networks in Low-Data Regime through Joint Structure-Label Estimation**  
 Danning Lao\*, **Xinyu Yang\***, Qitian Wu, Junchi Yan
