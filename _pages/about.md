@@ -15,7 +15,7 @@ Currently, I'm a research intern at [MIT](https://www.mit.edu/) and [Stanford](h
 
 ## Education
 
-<img src="../images/sjtu.png" alt="sjtu" style="zoom:9%; float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) （Rank: 1/30, GPA: 4.0/4.3） 
+<img src="../images/sjtu.png" alt="sjtu" style="zoom:9%; float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) （Ranking: **1/30**, GPA: 4.0/4.3） 
 &emsp; B.S. in Computer Science, advised by Prof. [Yong Yu](http://www.cs.sjtu.edu.cn/en/PeopleDetail.aspx?id=140). Sep. 2019 - Present
 
 ## Research Experience
