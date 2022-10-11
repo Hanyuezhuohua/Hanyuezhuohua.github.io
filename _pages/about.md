@@ -31,7 +31,7 @@ Currently, I'm a research intern at [MIT](https://www.mit.edu/) and [Stanford](h
 
 ## Publications
 
-$\mathcal{preprint}$    
+$\mathcal{Preprint}$    
 
 [1] Zhijian Liu\*,Haotian Tang\*, Alexander Amini, **Xinyu Yang**, Huizi Mao, Daniela Rus, Song Han, **BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation** , *arXiv 2205.13542* 
 
