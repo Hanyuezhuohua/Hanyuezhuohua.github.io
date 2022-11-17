@@ -36,7 +36,7 @@ Currently, I'm a research intern at [MIT](https://www.mit.edu/) and [Stanford](h
 
 [2] **Xinyu Yang\***, Huaxiu Yao\*, Xinyi Pan, Shengchao Liu, Pang Wei Koh, Chelsea Finn, **Relational Out‑of‑Distribution Generalization**.
 
-[3] Huaxiu Yao\*, **Xinyu Yang\***, Allan Zhou, Chelsea Finn, **Multi-Domain Long-Tailed Learning by Augmenting Disentangled Representations**.
+[3] Huaxiu Yao\*, **Xinyu Yang\***, Allan Zhou, Chelsea Finn, **Multi-Domain Long-Tailed Learning by Augmenting Disentangled Representations**, *arXiv 2210.14358*.
 
 [4] Zhijian Liu\*, Haotian Tang\*, Alexander Amini, **Xinyu Yang**, Huizi Mao, Daniela Rus, Song Han, **BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation**, *arXiv 2205.13542*.   
 
