@@ -42,5 +42,5 @@ Currently, I'm a research intern at [MIT](https://www.mit.edu/) and [Stanford](h
 
 ***
 
-**$\mathcal{2022}$**    
+**$\mit{2022}$**    
 [1] Danning Lao\*, **Xinyu Yang\***, Qitian Wu, Junchi Yan, **Variational Inference for Training Graph Neural Networks in Low-Data Regime through Joint Structure-Label Estimation**, in Proceedings of the 28th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (**KDD 2022**), Washington DC, Aug. 2022 (Research Track). 
