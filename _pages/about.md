@@ -32,9 +32,15 @@ Currently, I'm a research intern at [MIT](https://www.mit.edu/) and [Stanford](h
 ## Publications
 
 **$\mathcal{Preprint}$**   
-[1] Zhijian Liu\*,Haotian Tang\*, Alexander Amini, **Xinyu Yang**, Huizi Mao, Daniela Rus, Song Han, **BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation**, *arXiv 2205.13542*.   
+[1] Zhijian Liu\*, **Xinyu Yang***, Haotian Tang, Shang Yang, Song Han, **FlatFormer: Flattened Window Attention for Efficient Point Cloud Transformer**.
 
-[2] Huaxiu Yao\*, **Xinyu Yang\***, Allan Zhou, Chelsea Finn, **Multi-Domain Long-Tailed Learning by Augmenting Disentangled Representations**.
+[2] **Xinyu Yang\***, Huaxiu Yao\*, Xinyi Pan, Shengchao Liu, Pang Wei Koh, Chelsea Finn, **Relational Out‑of‑Distribution Generalization**.
+
+[3] Huaxiu Yao\*, **Xinyu Yang\***, Allan Zhou, Chelsea Finn, **Multi-Domain Long-Tailed Learning by Augmenting Disentangled Representations**.
+
+[4] Zhijian Liu\*, Haotian Tang\*, Alexander Amini, **Xinyu Yang**, Huizi Mao, Daniela Rus, Song Han, **BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation**, *arXiv 2205.13542*.   
+
+***
 
 **$\mathcal{2022}$**    
 [1] Danning Lao\*, **Xinyu Yang\***, Qitian Wu, Junchi Yan, **Variational Inference for Training Graph Neural Networks in Low-Data Regime through Joint Structure-Label Estimation**, in Proceedings of the 28th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (**KDD 2022**), Washington DC, Aug. 2022 (Research Track). 
