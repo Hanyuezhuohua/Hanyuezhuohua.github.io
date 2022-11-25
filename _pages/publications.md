@@ -5,12 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-## Publications
-
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
 **$\mathcal{Preprint}$**  
 [1] **Xinyu Yang\***, Huaxiu Yao\*, Xinyi Pan, Shengchao Liu, Pang Wei Koh, Chelsea Finn, **Relational Out‑of‑Distribution Generalization** (the short version is presented in *NeurIPS 2022 Workshop on Distribution Shifts*). 
 
