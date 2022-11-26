@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Xinyu Yang (杨新宇), an undergraduate from [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Zhiyuan College](http://zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). Currently, I'm a research intern at [MIT](https://www.mit.edu/) and [Stanford](https://www.stanford.edu/), advised by Prof. [Song Han](https://songhan.mit.edu/) and Prof. [Chelsea Finn](https://ai.stanford.edu/~cbfinn/) respectively. During my junior year, I also had a wonderful time as an undergraduate researcher working with Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/) at [ThinkLab](https://thinklab.sjtu.edu.cn/).  
+I am Xinyu Yang (杨新宇), an undergraduate from [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Zhiyuan College](http://zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). Currently, I'm fortunate to work with Prof. [Song Han](https://songhan.mit.edu/) at [MIT](https://www.mit.edu/) as a research intern, and Prof. [Chelsea Finn](https://ai.stanford.edu/~cbfinn/) at [Stanford](https://www.stanford.edu/) remotely. During my junior year, I also had a wonderful time as an undergraduate researcher advised by Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/) at [SJTU ThinkLab](https://thinklab.sjtu.edu.cn/).  
 
 My research focuses on robust and efficient machine learning and its applications in real-world scenarios, especially building ML models robust and adaptable to distribution shifts and changeable environments in an efficient way. 
 
