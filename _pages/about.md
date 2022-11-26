@@ -29,7 +29,7 @@ Currently, I'm a research intern at [MIT](https://www.mit.edu/) and [Stanford](h
 <img src="../images/sjtu.png" alt="sjtu" style="zoom:9%; float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)  
 &emsp; Undergraduate at [ThinkLab](https://thinklab.sjtu.edu.cn/), advised by Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/). Jul. 2021 - Feb. 2022
 
-## Publications
+## Recent Publications
 
 **$\mathcal{Preprint}$**  
 [1] **Xinyu Yang\***, Huaxiu Yao\*, Xinyi Pan, Shengchao Liu, Pang Wei Koh, Chelsea Finn, **Relational Out‑of‑Distribution Generalization** (the short version is presented in *NeurIPS 2022 Workshop on Distribution Shifts*). 
