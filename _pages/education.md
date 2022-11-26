@@ -5,9 +5,6 @@ permalink: /education/
 author_profile: true
 ---
 
-
-## Education
-
 <img src="../images/sjtu.png" alt="sjtu" style="zoom:9%; float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) （Ranking: **1/30**, GPA: 4.0/4.3）   
 &emsp; B.Eng. in Computer Science, advised by Prof. [Yong Yu](http://www.cs.sjtu.edu.cn/en/PeopleDetail.aspx?id=140). Sep. 2019 - Present
 
