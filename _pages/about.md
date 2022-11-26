@@ -11,8 +11,8 @@ redirect_from:
 I am Xinyu Yang (杨新宇), an undergraduate from [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Zhiyuan College](http://zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). Currently, I'm fortunate to work with Prof. [Song Han](https://songhan.mit.edu/) at [MIT](https://www.mit.edu/) as a research intern, and Prof. [Chelsea Finn](https://ai.stanford.edu/~cbfinn/) at [Stanford](https://www.stanford.edu/) remotely. During my junior year, I also had a wonderful time as an undergraduate researcher advised by Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/) at [SJTU ThinkLab](https://thinklab.sjtu.edu.cn/).  
 
 My current research interests focus on *building robust and efficient machine learning systems deployable in real application contexts through learning and interaction*. Revolving around this goal, I recently study the following topics:  
-&emsp; &spades; **Out-of-Distribution Robustness**  
-&emsp; &hearts; **Efficient 3D Point Cloud Perception**
+    - **Out-of-Distribution Robustness**
+    - **Efficient 3D Point Cloud Perception**
 
 I'm applying for **a Ph.D. position starting from Fall 2023**.
 
