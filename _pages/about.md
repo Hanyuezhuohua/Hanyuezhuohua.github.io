@@ -12,7 +12,8 @@ I am Xinyu Yang (杨新宇), an undergraduate from [ACM Honors Class](https://ac
 
 My primary research interests lie in machine learning and computer vision, especially *building machine learning models that remain robust and efficient when deployed in real application contexts*. Revolving around this goal, I recently focus on *Computer Vision and AI-aided Science*, studying the following topics:  
 	- Out-of-Distribution Robustness    
-	- Efficient 3D Point Cloud Perception
+	- Computation-Efficient 3D Point Cloud Perception  
+	- Data-Efficient Graph Learning 
 
 I'm applying for **a Ph.D. position starting from Fall 2023**.
 
