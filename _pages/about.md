@@ -20,15 +20,17 @@ I'm applying for **a Ph.D. position starting from Fall 2023**.
 # Recent Publications
 
 **$\mathcal{Preprint}$**  
-[1] **Xinyu Yang\***, Huaxiu Yao\*, Xinyi Pan, Shengchao Liu, Pang Wei Koh, Chelsea Finn, **Relational Out‑of‑Distribution Generalization** (the short version is presented in *NeurIPS 2022 Workshop on Distribution Shifts*). 
+[1]  Zhijian Liu\*, **Xinyu Yang\***, Haotian Tang, Shang Yang, Song Han, **Flattened Window Attention for Efficient Point Cloud Transformer**, *arXiv 2301.08739*. [[arXiv](https://arxiv.org/abs/2301.08739)]
 
 [2] Huaxiu Yao\*, **Xinyu Yang\***, Allan Zhou, Chelsea Finn, **Multi-Domain Long-Tailed Learning by Augmenting Disentangled Representations**, *arXiv 2210.14358* (the short version is presented in *NeurIPS 2022 Workshop on Distribution Shifts*). [[arXiv](https://arxiv.org/abs/2210.14358)]
+
+[3] **Xinyu Yang\***, Huaxiu Yao\*, Xinyi Pan, Shengchao Liu, Pang Wei Koh, Chelsea Finn, **Relational Out‑of‑Distribution Generalization** (the short version is presented in *NeurIPS 2022 Workshop on Distribution Shifts*). 
 
 ***
 
 **$\mit{2023}$**
 
-[1] Zhijian Liu\*, Haotian Tang\*, Alexander Amini, **Xinyu Yang**, Huizi Mao, Daniela Rus, Song Han, **BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation**, in *2023 IEEE International Conference on Robotics and Automation* (**ICRA 2023**), London, UK, Jun. 2023. [[Code](https://github.com/mit-han-lab/bevfusion)] [[arXiv](https://arxiv.org/abs/2205.13542)]   
+[1] Zhijian Liu\*, Haotian Tang\*, Alexander Amini, **Xinyu Yang**, Huizi Mao, Daniela Rus, Song Han, **BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation**, in *2023 IEEE International Conference on Robotics and Automation* (**ICRA 2023**), London, UK, Jun. 2023. [[Project Page](https://bevfusion.mit.edu/)] [[Code](https://github.com/mit-han-lab/bevfusion)] [[arXiv](https://arxiv.org/abs/2205.13542)]   
 
 ***
 
