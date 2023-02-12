@@ -10,7 +10,7 @@ redirect_from:
 
 I am Xinyu Yang (杨新宇), an undergraduate from [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Zhiyuan College](http://zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). Currently, I'm fortunate to work with Prof. [Song Han](https://songhan.mit.edu/) at [MIT](https://www.mit.edu/) as a research intern, and Prof. [Chelsea Finn](https://ai.stanford.edu/~cbfinn/) at [Stanford](https://www.stanford.edu/) remotely. During my junior year, I also had a wonderful time as an undergraduate researcher advised by Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/) at [SJTU ThinkLab](https://thinklab.sjtu.edu.cn/).  
 
-My primary research interests lie in the intersection of machine learning and system (MLSys). I am currently working on building efficient transformers via algorithm-system codesign, with its applications in 3D vision. 
+My primary research interests lie in the intersection of machine learning and system (MLSys). I am currently working on building efficient transformers via algorithm-system co-design, with its applications in 3D vision. 
 
 I'm applying for **a Ph.D. position starting from Fall 2023**.
 
