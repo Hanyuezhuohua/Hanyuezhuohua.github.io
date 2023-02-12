@@ -10,7 +10,7 @@ redirect_from:
 
 I am Xinyu Yang (杨新宇), an undergraduate from [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Zhiyuan College](http://zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). Currently, I'm fortunate to work with Prof. [Song Han](https://songhan.mit.edu/) at [MIT](https://www.mit.edu/) as a research intern, and Prof. [Chelsea Finn](https://ai.stanford.edu/~cbfinn/) at [Stanford](https://www.stanford.edu/) remotely. During my junior year, I also had a wonderful time as an undergraduate researcher advised by Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/) at [SJTU ThinkLab](https://thinklab.sjtu.edu.cn/).  
 
-My primary research interests lie in the intersection of machine learning and system (MLSys). I am currently working on building efficient transformers via algorithm-system co-design, with its applications in 3D vision. 
+My primary research interests lie in the intersection of machine learning and system (MLSys). I am currently working on building efficient transformers via algorithm/system co-design, with its applications in 3D vision. 
 
 I'm applying for **a Ph.D. position starting from Fall 2023**.
 
@@ -21,7 +21,7 @@ I'm applying for **a Ph.D. position starting from Fall 2023**.
 
 [2]  **Xinyu Yang\***, Huaxiu Yao\*, Allan Zhou, Chelsea Finn, **Multi-Domain Long-Tailed Learning by Augmenting Disentangled Representations**, *arXiv 2210.14358* (the short version is presented in *NeurIPS 2022 Workshop on Distribution Shifts*). [[arXiv](https://arxiv.org/abs/2210.14358)]
 
-[3] Huaxiu Yao\*, **Xinyu Yang\***, Xinyi Pan, Shengchao Liu, Pang Wei Koh, Chelsea Finn, **Leveraging Domain Relations for Domain Generalization** (the short version is presented in *NeurIPS 2022 Workshop on Distribution Shifts*). [[arXiv](https://arxiv.org/abs/2302.02609)]
+[3] Huaxiu Yao\*, **Xinyu Yang\***, Xinyi Pan, Shengchao Liu, Pang Wei Koh, Chelsea Finn, **Leveraging Domain Relations for Domain Generalization**, *arXiv 2302.02609*  (the short version is presented in *NeurIPS 2022 Workshop on Distribution Shifts*). [[arXiv](https://arxiv.org/abs/2302.02609)]
 
 ***
 
