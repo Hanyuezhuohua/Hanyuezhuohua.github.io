@@ -19,12 +19,12 @@ I'm applying for **a Ph.D. position starting from Fall 2023**.
 
 # Recent Publications
 
-**$\mathcal{Preprint}$**  
+**$\mit{Preprint}$**  
 [1]  Zhijian Liu\*, **Xinyu Yang\***, Haotian Tang, Shang Yang, Song Han, **Flattened Window Attention for Efficient Point Cloud Transformer**, *arXiv 2301.08739*. [[arXiv](https://arxiv.org/abs/2301.08739)]
 
 [2] Huaxiu Yao\*, **Xinyu Yang\***, Allan Zhou, Chelsea Finn, **Multi-Domain Long-Tailed Learning by Augmenting Disentangled Representations**, *arXiv 2210.14358* (the short version is presented in *NeurIPS 2022 Workshop on Distribution Shifts*). [[arXiv](https://arxiv.org/abs/2210.14358)]
 
-[3] **Xinyu Yang\***, Huaxiu Yao\*, Xinyi Pan, Shengchao Liu, Pang Wei Koh, Chelsea Finn, **Relational Out‑of‑Distribution Generalization** (the short version is presented in *NeurIPS 2022 Workshop on Distribution Shifts*). 
+[3] **Xinyu Yang\***, Huaxiu Yao\*, Xinyi Pan, Shengchao Liu, Pang Wei Koh, Chelsea Finn, **Leveraging Domain Relations for Domain Generalization** (the short version is presented in *NeurIPS 2022 Workshop on Distribution Shifts*). [[arXiv](https://arxiv.org/abs/2302.02609)]
 
 ***
 
