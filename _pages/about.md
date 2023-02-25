@@ -12,7 +12,7 @@ I am Xinyu Yang (杨新宇), an undergraduate from [ACM Honors Class](https://ac
 
 My primary research interests lie in the intersection of machine learning and system (MLSys). I am currently working on building efficient transformers via algorithm/system co-design, with its applications in 3D vision. 
 
-I'm applying for **a Ph.D. position starting from Fall 2023**.
+I'm also an incoming Ph.D. student of Electrical and Computer Engineering at Carnegie Mellon University, advised by Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/).
 
 # Recent Publications
 
