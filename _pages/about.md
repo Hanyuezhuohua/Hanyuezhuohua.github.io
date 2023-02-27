@@ -25,6 +25,7 @@ I'm also an incoming Ph.D. student of Electrical and Computer Engineering at Car
 
 **$\mit{2023}$**   
 [1] Zhijian Liu\*, **Xinyu Yang\***, Haotian Tang, Shang Yang, Song Han, **Flattened Window Attention for Efficient Point Cloud Transformer**, in The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2023 (**CVPR 2023**), Vancouver, Canada, Jun. 2023. [[arXiv](https://arxiv.org/abs/2301.08739)]
+
 [2] Zhijian Liu\*, Haotian Tang\*, Alexander Amini, **Xinyu Yang**, Huizi Mao, Daniela Rus, Song Han, **BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation**, in *2023 IEEE International Conference on Robotics and Automation* (**ICRA 2023**), London, UK, Jun. 2023. [[Project Page](https://bevfusion.mit.edu/)] [[Code](https://github.com/mit-han-lab/bevfusion)] [[arXiv](https://arxiv.org/abs/2205.13542)]   
 
 ***
