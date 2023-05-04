@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Malachy Xinyu Yang (杨新宇), an undergraduate from [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Zhiyuan College](http://zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), and an incoming Ph.D. student at Carnegie Mellon University, advised by Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/). Currently, I'm fortunate to work with Prof. [Song Han](https://songhan.mit.edu/) at MIT HAN Lab as a research intern, and Prof. [Chelsea Finn](https://ai.stanford.edu/~cbfinn/) at Stanford IRIS Lab remotely. During my junior year, I also had a wonderful time as an undergraduate researcher advised by Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/) at SJTU ThinkLab.  
+I am Xinyu Yang (杨新宇), an undergraduate from [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Zhiyuan College](http://zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), and an incoming Ph.D. student at Carnegie Mellon University, advised by Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/). Currently, I'm fortunate to work with Prof. [Song Han](https://songhan.mit.edu/) at MIT HAN Lab as a research intern, and Prof. [Chelsea Finn](https://ai.stanford.edu/~cbfinn/) at Stanford IRIS Lab remotely. During my junior year, I also had a wonderful time as an undergraduate researcher advised by Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/) at SJTU ThinkLab.  
 
 My primary research interests lie in the intersection of machine learning and system (MLSys). I am currently working on building efficient transformers via algorithm/system co-design, with its applications in 3D vision. 
 
