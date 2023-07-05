@@ -17,19 +17,14 @@ Before coming to CMU, I was an undergraduate student from [ACM Honors Class](htt
 <img src="/Users/malachite/Desktop/ACM/personal/Hanyuezhuohua.github.io/images/cmu.png" alt="cmu" style="zoom:24%; float: left" />&emsp; [Carnegie Mellon University](https://www.cmu.edu/)    
 &emsp; Ph.D. student in Electrical and Computer Engineering, advised by Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/). Aug. 2023 - Present
 
-<img src="/Users/malachite/Desktop/ACM/personal/Hanyuezhuohua.github.io/images/sjtu.png" alt="sjtu" style="zoom:9%; float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) （Ranking: **1/29**, GPA: 4.0/4.3）   
-&emsp; B.Eng. in Computer Science, advised by Prof. [Yong Yu](http://www.cs.sjtu.edu.cn/en/PeopleDetail.aspx?id=140). Sep. 2019 - Jun. 2023
-
-# Research Experience
-
 <img src="/Users/malachite/Desktop/ACM/personal/Hanyuezhuohua.github.io/images/stanford3.png" alt="stanford" style="zoom:11.4%; float: left" />&emsp; [Stanford University](https://www.stanford.edu/)  
 &emsp; Research Intern at [Stanford IRIS Lab](https://irislab.stanford.edu/), advised by Prof. [Chelsea Finn](https://ai.stanford.edu/~cbfinn/). Mar. 2022 - Present
 
 <img src="/Users/malachite/Desktop/ACM/personal/Hanyuezhuohua.github.io/images/mit2.png" alt="mit" style="zoom:9%; float: left" />&emsp; [Massachusetts Institute of Technology](https://www.mit.edu/)  
 &emsp; Research Intern at [MIT Han Lab](https://hanlab.mit.edu/), advised by Prof. [Song Han](https://songhan.mit.edu/). Nov. 2021 - Jun. 2023
 
-<img src="/Users/malachite/Desktop/ACM/personal/Hanyuezhuohua.github.io/images/sjtu.png" alt="sjtu" style="zoom:9%; float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)  
-&emsp; Research Intern at [SJTU-ReThinkLab](https://thinklab.sjtu.edu.cn/), advised by Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/). Jul. 2021 - Present
+<img src="/Users/malachite/Desktop/ACM/personal/Hanyuezhuohua.github.io/images/sjtu.png" alt="sjtu" style="zoom:9%; float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) （Ranking: **1/29**, GPA: 4.0/4.3）   
+&emsp; B.Eng. in Computer Science, advised by Prof. [Yong Yu](http://www.cs.sjtu.edu.cn/en/PeopleDetail.aspx?id=140). Sep. 2019 - Jun. 2023
 
 # Recent Publications
 
