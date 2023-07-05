@@ -14,7 +14,7 @@ Before coming to CMU, I was an undergraduate student from [ACM Honors Class](htt
 
 # Education
 
-&emsp;<img src="../images/cmu.png" alt="cmu" style="zoom:24%; float: left" />&emsp; [Carnegie Mellon University](https://www.cmu.edu/)    
+<img src="../images/cmu.png" alt="cmu" style="zoom:24%; float: left" />&emsp; [Carnegie Mellon University](https://www.cmu.edu/)    
 &emsp; Ph.D. student in ECE, advised by Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/). Aug. 2023 - Present
 
 <img src="../images/stanford3.png" alt="stanford" style="zoom:11.4%; float: left" />&emsp; [Stanford University](https://www.stanford.edu/)  
