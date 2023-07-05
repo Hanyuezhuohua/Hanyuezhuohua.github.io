@@ -8,9 +8,28 @@ redirect_from:
   - /about.html
 ---
 
-I am Xinyu Yang (杨新宇), an undergraduate from [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Zhiyuan College](http://zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), and an incoming Ph.D. student at Carnegie Mellon University, advised by Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/). Currently, I'm fortunate to work with Prof. [Song Han](https://songhan.mit.edu/) at MIT HAN Lab as a research intern, and Prof. [Chelsea Finn](https://ai.stanford.edu/~cbfinn/) at Stanford IRIS Lab remotely. During my junior year, I also had a wonderful time as an undergraduate researcher advised by Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/) at SJTU ThinkLab.  
+I am Xinyu Yang (杨新宇), an incoming Ph.D. student at Carnegie Mellon University, advised by Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/). My research focuses on efficient deep learning and system. I am currently working on efficient algorithms for large language model and autonomous driving. 
 
-My primary research interests lie in the intersection of machine learning and system (MLSys). I am currently working on building efficient transformers via algorithm/system co-design, with its applications in 3D vision. 
+Before coming to CMU, I was an undergraduate student from [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Zhiyuan College](http://zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), and  a research intern working with Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/) at SJTU-ReThinkLab. I also had a wonderful time wo work as a research intern with Prof. [Song Han](https://songhan.mit.edu/) at MIT HAN Lab and remotely with Prof. [Chelsea Finn](https://ai.stanford.edu/~cbfinn/) at Stanford IRIS Lab. 
+
+# Education
+
+<img src="/Users/malachite/Desktop/ACM/personal/Hanyuezhuohua.github.io/images/sjtu.png" alt="sjtu" style="zoom:9%; float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/) （Ranking: **1/30**, GPA: 4.0/4.3）   
+&emsp; B.Eng. in Computer Science, advised by Prof. [Yong Yu](http://www.cs.sjtu.edu.cn/en/PeopleDetail.aspx?id=140). Sep. 2019 - Jun. 2023
+
+<img src="/Users/malachite/Desktop/ACM/personal/Hanyuezhuohua.github.io/images/cmu.png" alt="cmu" style="zoom:24%; float: left" />&emsp; [Carnegie Mellon University](https://www.cmu.edu/)    
+&emsp; Ph.D. student in Electrical and Computer Engineering, advised by Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/). Aug. 2023 - Present
+
+# Research Experience
+
+<img src="/Users/malachite/Desktop/ACM/personal/Hanyuezhuohua.github.io/images/stanford3.png" alt="stanford" style="zoom:11.4%; float: left" />&emsp; [Stanford University](https://www.stanford.edu/)  
+&emsp; Research Intern at [IRIS](https://irislab.stanford.edu/), advised by Prof. [Chelsea Finn](https://ai.stanford.edu/~cbfinn/). Mar. 2022 - Present
+
+<img src="/Users/malachite/Desktop/ACM/personal/Hanyuezhuohua.github.io/images/mit2.png" alt="mit" style="zoom:9%; float: left" />&emsp; [Massachusetts Institute of Technology](https://www.mit.edu/)  
+&emsp; Research Intern at [HanLab](https://hanlab.mit.edu/), advised by Prof. [Song Han](https://songhan.mit.edu/). Nov. 2021 - Present
+
+<img src="/Users/malachite/Desktop/ACM/personal/Hanyuezhuohua.github.io/images/sjtu.png" alt="sjtu" style="zoom:9%; float: left" />&emsp; [Shanghai Jiao Tong University](http://en.sjtu.edu.cn/)  
+&emsp; Undergraduate at [ThinkLab](https://thinklab.sjtu.edu.cn/), advised by Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/). Jul. 2021 - Feb. 2022
 
 # Recent Publications
 
