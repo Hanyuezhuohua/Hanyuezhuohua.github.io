@@ -8,6 +8,8 @@ author_profile: true
 **$\mit{Preprint}$**  
 [1] Huaxiu Yao\*, **Xinyu Yang\***, Xinyi Pan, Shengchao Liu, Pang Wei Koh, Chelsea Finn, **Leveraging Domain Relations for Domain Generalization**, *arXiv 2302.02609*  (the short version is presented in *NeurIPS 2022 Workshop on Distribution Shifts*). [[arXiv](https://arxiv.org/abs/2302.02609)]
 
+[2] Chenhang Cui\*, Yiyang Zhou\*, **Xinyu Yang**, Shirley Wu, Linjun Zhang, James Zou, Huaxiu Yao, **Holistic Analysis of Hallucination in GPT-4V(ision): Bias and Interference Challenges**, *arXiv 2311.03287*. [[arXiv](https://arxiv.org/abs/2311.03287)]
+
 ***
 
 **$\mit{2023}$**   
