@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am Xinyu Yang (杨新宇), an first-year Ph.D. student at Carnegie Mellon University, advised by Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/). My research focuses on efficient deep learning and system. I am currently working on efficient algorithms for large generative model and autonomous driving. 
+I am Xinyu Yang (杨新宇), a first-year Ph.D. student at Carnegie Mellon University, advised by Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/). My research focuses on efficient deep learning algorithm and system. I am currently working on efficient algorithms for large generative models. 
 
 Before coming to CMU, I was an undergraduate student from [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Zhiyuan College](http://zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), and  a research intern working with Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/) at SJTU-ReThinkLab. I also had a wonderful time as a research intern working with Prof. [Song Han](https://songhan.mit.edu/) at MIT HAN Lab and remotely with Prof. [Chelsea Finn](https://ai.stanford.edu/~cbfinn/) at Stanford IRIS Lab. 
 
