@@ -6,14 +6,17 @@ author_profile: true
 ---
 
 **$\mit{Preprint}$**  
-[1] Huaxiu Yao\*, **Xinyu Yang\***, Xinyi Pan, Shengchao Liu, Pang Wei Koh, Chelsea Finn, **Leveraging Domain Relations for Domain Generalization**, *arXiv 2302.02609*  (the short version is presented in *NeurIPS 2022 Workshop on Distribution Shifts*). [[arXiv](https://arxiv.org/abs/2302.02609)]
+[1] Chenhang Cui\*, Yiyang Zhou\*, **Xinyu Yang**, Shirley Wu, Linjun Zhang, James Zou, Huaxiu Yao, **Holistic Analysis of Hallucination in GPT-4V(ision): Bias and Interference Challenges**, *arXiv 2311.03287*. [[arXiv](https://arxiv.org/abs/2311.03287)]
 
-[2] Chenhang Cui\*, Yiyang Zhou\*, **Xinyu Yang**, Shirley Wu, Linjun Zhang, James Zou, Huaxiu Yao, **Holistic Analysis of Hallucination in GPT-4V(ision): Bias and Interference Challenges**, *arXiv 2311.03287*. [[arXiv](https://arxiv.org/abs/2311.03287)]
+***
+
+**$\mit{2024}$**   
+[1] Huaxiu Yao\*, **Xinyu Yang\***, Xinyi Pan, Shengchao Liu, Pang Wei Koh, Chelsea Finn, **Leveraging Domain Relations for Domain Generalization**, in Proceeding of the 12th International Conference on Learning Representations (**ICLR 2024**), Vienna, Austria, May 2024 (Spotlight). [[arXiv](https://arxiv.org/abs/2302.02609)]
 
 ***
 
 **$\mit{2023}$**   
-[1] **Xinyu Yang\***, Huaxiu Yao\*, Allan Zhou, Chelsea Finn, **Multi-Domain Long-Tailed Learning by Augmenting Disentangled Representations**, *Transactions on Machine Learning Research* (**TMLR**), 2023 (the short version is presented in *NeurIPS 2022 Workshop on Distribution Shifts*). [[arXiv](https://arxiv.org/abs/2210.14358)]
+[1] **Xinyu Yang\***, Huaxiu Yao\*, Allan Zhou, Chelsea Finn, **Multi-Domain Long-Tailed Learning by Augmenting Disentangled Representations**, *Transactions on Machine Learning Research* (**TMLR**), 2023. [[arXiv](https://arxiv.org/abs/2210.14358)]
 
 [2] Zhijian Liu\*, **Xinyu Yang\***, Haotian Tang, Shang Yang, Song Han, **Flattened Window Attention for Efficient Point Cloud Transformer**, in The IEEE/CVF Conference on Computer Vision and Pattern Recognition 2023 (**CVPR 2023**), Vancouver, Canada, Jun. 2023. [[arXiv](https://arxiv.org/abs/2301.08739)]
 
