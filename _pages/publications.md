@@ -6,7 +6,9 @@ author_profile: true
 ---
 
 **$\mit{Preprint}$**  
-[1] Chenhang Cui\*, Yiyang Zhou\*, **Xinyu Yang**, Shirley Wu, Linjun Zhang, James Zou, Huaxiu Yao, **Holistic Analysis of Hallucination in GPT-4V(ision): Bias and Interference Challenges**, *arXiv 2311.03287*. [[arXiv](https://arxiv.org/abs/2311.03287)]
+[1] Harry Dong, **Xinyu Yang**, Zhenyu Zhang, Zhangyang Wang, Yuejie Chi, Beidi Chen, **Get More with LESS: Synthesizing Recurrence with KV Cache Compression for Efficient LLM Inference**, *arXiv 2402.09398*. [[arXiv](https://arxiv.org/abs/2402.09398)]
+
+[2] Chenhang Cui\*, Yiyang Zhou\*, **Xinyu Yang**, Shirley Wu, Linjun Zhang, James Zou, Huaxiu Yao, **Holistic Analysis of Hallucination in GPT-4V(ision): Bias and Interference Challenges**, *arXiv 2311.03287*. [[arXiv](https://arxiv.org/abs/2311.03287)]
 
 ***
 

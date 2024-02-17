@@ -8,7 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am Xinyu Yang (杨新宇), a first-year Ph.D. student at Carnegie Mellon University, advised by Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/). My research focuses on efficient deep learning algorithm and system. I am currently working on efficient algorithms for large generative models. 
+I am Xinyu Yang (杨新宇), a first-year Ph.D. student at Carnegie Mellon University, advised by Prof. [Beidi Chen](https://www.andrew.cmu.edu/user/beidic/). My research focuses on building useful, reliable, and efficient foundation model
+systems for scientific research and broader human society. I also work closely with Prof. [Tianqi Chen](https://tqchen.com/) at CMU and Prof. [Huaxiu Yao](https://www.huaxiuyao.io/) at UNC.
 
 Before coming to CMU, I was an undergraduate student from [ACM Honors Class](https://acm.sjtu.edu.cn/home), [Zhiyuan College](http://zhiyuan.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/), and  a research intern working with Prof. [Junchi Yan](https://thinklab.sjtu.edu.cn/) at SJTU-ReThinkLab. I also had a wonderful time as a research intern working with Prof. [Song Han](https://songhan.mit.edu/) at MIT HAN Lab and remotely with Prof. [Chelsea Finn](https://ai.stanford.edu/~cbfinn/) at Stanford IRIS Lab. 
 
@@ -29,7 +30,9 @@ Before coming to CMU, I was an undergraduate student from [ACM Honors Class](htt
 # Recent Publications
 
 **$\mit{Preprint}$**  
-[1] Chenhang Cui\*, Yiyang Zhou\*, **Xinyu Yang**, Shirley Wu, Linjun Zhang, James Zou, Huaxiu Yao, **Holistic Analysis of Hallucination in GPT-4V(ision): Bias and Interference Challenges**, *arXiv 2311.03287*. [[arXiv](https://arxiv.org/abs/2311.03287)]
+[1] Harry Dong, **Xinyu Yang**, Zhenyu Zhang, Zhangyang Wang, Yuejie Chi, Beidi Chen, **Get More with LESS: Synthesizing Recurrence with KV Cache Compression for Efficient LLM Inference**, *arXiv 2402.09398*. [[arXiv](https://arxiv.org/abs/2402.09398)]
+
+[2] Chenhang Cui\*, Yiyang Zhou\*, **Xinyu Yang**, Shirley Wu, Linjun Zhang, James Zou, Huaxiu Yao, **Holistic Analysis of Hallucination in GPT-4V(ision): Bias and Interference Challenges**, *arXiv 2311.03287*. [[arXiv](https://arxiv.org/abs/2311.03287)]
 
 ***
 
