@@ -1,0 +1,886 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Malachy Xinyu Yang</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="icon" href="images/lantou.jpeg" type="image/jpeg">
+		<script>
+			window.MathJax = {
+				tex: {
+					inlineMath: [['$', '$'], ['\\(', '\\)']],
+					displayMath: [['$$', '$$'], ['\\[', '\\]']],
+					processEscapes: true,
+				},
+				svg: {
+					fontCache: 'global',
+					scale: 1,
+				},
+				startup: {
+					ready: () => {
+						MathJax.startup.defaultReady();
+						MathJax.startup.promise.then(() => {
+							document.querySelectorAll('.MathJax').forEach(el => {
+							el.style.zIndex = '1';
+							el.style.position = 'relative';
+							});
+						});
+					}
+				}
+			};
+		</script>
+		<script type="text/javascript" id="MathJax-script" async
+			src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+		</script>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/xinyu3.jpeg" alt="" /></span>
+					<h1 id="logo" style="margin-top: -20px; margin-bottom: -15px;"><a href="#">Malachy Xinyu Yang</a></h1>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#two">News</a></li>
+						<li><a href="#three">Research Highlights</a></li>
+						<li><a href="#four">Publications</a></li>
+						<li><a href="#five">Experience</a></li>
+						<li><a href="#six">Service</a></li>
+						<li><a href="#seven">Contact</a></li>
+						<li><a href="#eight">Misc</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons" style="margin-top: -20px">
+						<li>
+							<a href="#" onclick="showCV(event)" class="icon solid fa-file">
+								<span class="label">CV</span>
+							</a>
+							<div id="cv-wrapper" style="display: none;" onclick="hideCV(event)">
+								<div id="cv-viewer">
+									<iframe src="images/CV_Xinyu_Yang.pdf" 
+											width="100%" 
+											height="800px"
+											class="pdf-viewer">
+									</iframe>
+								</div>
+							</div>
+						</li>
+						
+						<style>
+						#cv-wrapper {
+							position: fixed;
+							top: 0;
+							left: 0;
+							width: 100%;
+							height: 100%;
+							background: rgba(0,0,0,0.5);
+							z-index: 1000;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+						}
+						
+						#cv-viewer {
+							width: 90%;
+							height: 90vh;
+							background: white;
+							padding: 20px;
+							box-shadow: 0 0 20px rgba(0,0,0,0.2);
+						}
+						</style>
+						
+						<script>
+						function showCV(e) {
+							e.preventDefault();
+							document.getElementById('cv-wrapper').style.display = 'flex';
+						}
+						
+						function hideCV(e) {
+							// Only close if clicking the wrapper (outside the PDF), not the PDF itself
+							if (e.target.id === 'cv-wrapper') {
+								document.getElementById('cv-wrapper').style.display = 'none';
+							}
+						}
+						</script>
+						<li><a href="mailto:xinyuagi@cmu.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://scholar.google.com/citations?user=Fvq2R14AAAAJ" class="icon ai ai-google-scholar" style="transform: scale(1.15);"><span class="label">google Scholar</span></a></li>
+						<li><a href="https://github.com/Hanyuezhuohua" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://x.com/Xinyu2ML" class="icon brands fa-x-twitter"><span class="label">X (Twitter)</span></a></li>
+						<li><a href="https://www.linkedin.com/in/xinyu-yang-37163a259/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+						<li><a href="https://www.instagram.com/hanyuezhuohua" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<style>
+							.modal {
+							 display: none;
+							 position: fixed;
+							 left: 0;
+							 top: 0;
+							 width: 100%;
+							 height: 100%;
+							 background-color: rgba(0,0,0,0.7);
+							}
+							
+							.modal-content {
+							 position: relative;
+							 margin: auto;
+							 padding: 20px;
+							 max-width: 700px;
+							 top: 50%;
+							 transform: translateY(-50%);
+							}
+							
+							.modal-content img {
+							 width: 100%;
+							 height: auto;
+							}
+							</style>
+							
+							<div id="imageModal" class="modal" onclick="this.style.display='none'">
+							 <div class="modal-content">
+							   <img src="images/wechat.jpeg">
+							 </div>
+							</div>
+							
+							<script>
+							function showImage() {
+							 document.getElementById('imageModal').style.display = 'block';
+							}
+							</script>
+						<li><a class="icon brands fa-weixin" style="cursor: pointer;" onclick="showImage()"><span class="label">Wechat</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Main -->
+					<div id="main" class="h-screen">
+						<style>
+							.MathJax {
+							  position: static !important;
+							  z-index: auto !important;
+							  mix-blend-mode: inherit;
+							}
+							@media (prefers-color-scheme: dark) {
+							  .MathJax {
+								mix-blend-mode: screen;
+							  }
+							}
+						</style>
+
+						<style>
+							@import url('https://fonts.googleapis.com/css?family=Kablammo');
+							@import url('https://fonts.googleapis.com/css?family=Merienda');
+							/* Alternative options:
+							@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+							@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@500&display=swap');
+							*/
+							
+							.title_Kablammo{
+								font-family: 'Kablammo', serif;
+								font-size: 48px;
+								color: #a385e2 !important;
+								letter-spacing: 0.02em;
+								line-height: 1.2;
+								margin-bottom: 3rem;
+							}
+							.subtitle-Merienda {
+								font-family: 'Merienda', serif;
+								font-size: 1.2em !important;  /* Smaller font size */
+								line-height: 1.6;
+								color: #a385e2 !important;  /* Slightly muted color */
+							}
+							.full-width-text {
+								text-align: justify;
+								width: 100%;
+								max-width: 100%;
+								margin: 0;
+								padding: 0;
+								text-justify: inter-word;
+								margin-bottom: 10px;
+								color: #666; /* Match the gray color from the image */
+							}
+							mjx-container {
+  								z-index: 1 !important;
+							}
+						</style>
+
+						<!-- One -->
+						<section id="one">
+							<div class="container">
+								<header class="major">
+									<h2 class="title_Kablammo">Malachy Xinyu Yang</h2>
+									<p class="subtitle-Merienda">He/They<br />
+									Ph.D. Student<br />
+									Electrical and Computer Engineering Department<br />
+									Carnegie Mellon University</p>
+								</header>
+								<p class="full-width-text">Welcome! I'm delighted to have you here on this page. Sending you a virtual but heartfelt greeting! 👋 </p>
+								
+								<p class="full-width-text">I am currently a second-year Ph.D. student in <a href="https://keroro824.github.io/lab-page/">InfiniAI Lab</a><img src="images/infini-ai.png" alt="InfiniAI Logo"  class="inline align-middle" style="height: 0.9em; width: auto; margin-left: 0.2em; position: relative; top: 0.12em;" /> at <a href="https://www.cmu.edu/">Carnegie Mellon University</a><img src="images/cmu3.jpeg" alt="CMU Logo"  class="inline align-middle" style="height: 1.25em; width: auto; margin-left: 0.15em; position: relative; top: 0.3em;" />, where I am fortunated to be advised by Prof. 
+								<a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a>. I also collaborate closely with Prof. 
+								<a href="https://tqchen.com/">Tianqi Chen</a> at <a href="https://www.cmu.edu/">CMU</a> and Prof. 
+								<a href="https://www.huaxiuyao.io/">Huaxiu Yao</a> at <a href="https://www.unc.edu/">UNC</a><img src="images/unc.png" alt="UNC Logo"  class="inline align-middle" style="height: 1em; width: auto; margin-left: 0.15em; position: relative; top: 0.1em;" />.
+								Previously, I obtained my bachelar’s degree from 
+								<a href="https://acm.sjtu.edu.cn/home">ACM Honors Class</a>, 
+								<a href="http://zhiyuan.sjtu.edu.cn/">Zhiyuan College</a>, 
+								<a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a><img src="images/sjtu.png" alt="SJTU Logo"  class="inline align-middle" style="height: 1.3em; width: auto; margin-left: 0.2em; position: relative; top: 0.3em;" />, 
+								where I conducted research with Prof. 
+								<a href="https://scholar.google.com/citations?user=ga230VoAAAAJ">Junchi Yan</a> 
+								at <a href="https://thinklab.sjtu.edu.cn/">ThinkLab</a><img src="images/thinklab.png" alt="Thinklab Logo"  class="inline align-middle" style="height: 1em; width: auto; margin-left: 0.2em; position: relative; top: 0.14em;" />. I had a wonderful time through internships with Prof. 
+								<a href="https://songhan.mit.edu/">Song Han</a> 
+								in <a href="https://hanlab.mit.edu/">HAN Lab</a><img src="images/han.png" alt="HAN Logo"  class="inline align-middle" style="height: 0.9em; width: auto; margin-left: 0.25em; position: relative; top: 0.05em;" /> at <a href="https://www.mit.edu/">MIT</a><img src="images/mit.png" alt="MIT Logo"  class="inline align-middle" style="height: 0.8em; width: auto; margin-left: 0.3em; position: relative; top: 0.05em;" />, Prof. 
+								<a href="https://ai.stanford.edu/~cbfinn/">Chelsea Finn</a> 
+								in <a href="https://irislab.stanford.edu/">IRIS Lab</a><img src="images/iris.png" alt="IRIS Logo"  class="inline align-middle" style="height: 1.2em; width: auto; margin-left: 0.2em; position: relative; top: 0.2em;" /> at <a href="https://www.stanford.edu/">Stanford</a><img src="images/stanford3.png" alt="Stanford Logo"  class="inline align-middle" style="height: 1.17em; width: auto; margin-left: 0.2em; position: relative; top: 0.2em;" />, and Dr. <a href="http://chen-luo.com/">Chen Luo</a> at <a href="https://en.wikipedia.org/wiki/A9.com/">Amazon Search</a><img src="images/amazon.png" alt="Amazon Logo"  class="inline align-middle" style="height: 1.1em; width: auto; margin-left: 0.2em; position: relative; top: 0.25em;" />. </p> 
+							</div>
+						</section>
+						
+
+					<!-- Two -->
+						<section id="two">
+							<div class="container">
+								<h3>News</h3>
+								<style>
+									.content-row {
+										display: flex;
+										margin-bottom: 20px;
+										align-items: flex-start;
+									}
+									.date {
+										font-weight: bold;
+										min-width: 150px;  /* Fixed width for date column */
+									}
+									.purple-link {
+										color: #a385e2;
+										text-decoration: none;
+									}
+									.purple-link:hover {
+										text-decoration: underline;
+									}
+								</style>
+
+								<div class="content-row">
+									<div class="full-width-text">I will dedicate 30 mins every week for meetings to chat about life, career plan, or research ideas related to foundation models. I especially welcome and encourage students from <a href="https://en.wikipedia.org/wiki/Underrepresented_group" class="purple-link">underrepresented groups</a> to reach out and will prioritize these meetings. Please <a href="#four">email me</a> to schedule a meeting if you are interested.</div>
+								</div>
+
+								<div class="content-row">
+									<div class="date">Dec 20, 2024</div>
+									<div>📣 Excited to share that our proposal for <a href="https://openreview.net/pdf?id=FXV5nMYSxq" class="purple-link">The 2nd Workshop on Foundation Models in the Wild</a> has been accepted to ICLR 2025. Stay tuned for updates and details.</div>
+								</div>
+								
+								<div class="content-row">
+									<div class="date">Dec 9, 2024</div>
+									<div>📢 Our NeurIPS paper released: <a href="https://arxiv.org/abs/2412.06289" class="purple-link">S<sup>2</sup>FT: Efficient, Scalable and Generalizable LLM Fine-tuning by Structured Sparsity</a>. Check out the <a href="https://github.com/Infini-AI-Lab/S2FT" class="purple-link">Code</a> and <a href="https://infini-ai-lab.github.io/S2FT-Page/" class="purple-link">Blog</a> for more details.</div>
+								</div>
+
+								<div class="content-row">
+									<div class="date">Sep 30, 2024</div>
+									<div>I'm co-organizing  <a href="https://www.ood-cv.org/" class="purple-link">The 3rd Workshop for Out-of-Distribution Generalization in Computer Vision Foundation Models</a> at ECCV 2024. See you at MiCo Milano.</div>
+								</div>
+								
+								<div class="content-row">
+									<div class="date">July 26, 2024</div>
+									<div>I'm lead-organizing <a href="https://icml-fm-wild.github.io/" class="purple-link">Workshop on Foundation Models in the Wild</a> at ICML 2024. Thanks to all co-organizers and speakers for their support. See you at Vienna.</div>
+								</div>
+							</div>
+						</section>
+
+						<section id="three">
+							<div class="container">
+								<h3>Research Highlights</h3>
+								<p class="full-width-text">My research is centered on the intersection of machine learning system and foundation model, with a specific focus on the development of <span style="font-weight: bold; color: #a385e2">scalable and generalizable foundation model systems in the wild.</span> Recently, I am particularly interested in hardware-aware algorithm design with sub-linear complexity:</p>
+								<ol style="margin-bottom: 15px;">
+									<li><span style="font-weight: bold; color: #a385e2">Infinite-length Retrieval:</span> For each single query, how can we retrieve relevant informtion from an $O(n)$-length contextual cache in foundation models using $O(\log(n))$ computations and positions?</li>
+									<li><span style="font-weight: bold; color: #a385e2">Infinite-depth Reasoning:</span> An $O(n)$-depth reasoning problem requires either a Transformer with $O(\log(n))$-layer or $O(n)$-width. Can we achieve equivalent capabilities through repeating layers?</li> 
+									<li><span style="font-weight: bold; color: #a385e2">Infinite-volume Memory:</span> How to encode $O(n)$-volume knowledge into model parameters? The model size can grow linearly, but computational costs should be $O(\log(n))$ using sparse activation. <!-- And during training, how to aggregate the gradient updates across sparsely activated subnetworks? --></li>
+								</ol>
+								<p class="full-width-text" style="margin-top: 0;">Additionally, I am fascinated with structural contextual cache architectures that transcend traditional sequential patterns. This is important for multi-modal foundation models with more diverse structures.</p>
+								<ol style="margin-bottom: 15px;">
+									<li><span style="font-weight: bold; color: #a385e2">Uni-directional and Bi-directional Relations:</span> Typically, relations can be categorized as uni- or bi-directional. How can we seperate them with different attention masks and position embeddings?</li>
+									<li><span style="font-weight: bold; color: #a385e2">One-to-many and Many-to-one Relations:</span> Current cache architectures only support one-to-many relations. How can we further enable many-to-one relations to fostering information aggregation?</li>
+									<li><span style="font-weight: bold; color: #a385e2">Static and Dynamic Relations:</span> Current cache establishes static relations, but operations may involve dynamic relations, as they might not depend on prior information or affect subsequent information.</li>
+								</ol>
+								<p class="full-width-text" style="margin-top: 0;">If you would like to chat more about these topics, please feel free to <a href="#four">email me</a> to schedule a meeting.</p>
+							</div>
+						</section>
+
+						<!-- Four -->
+							<section id="four">
+								<div class="container">
+									<h3>Publications</h3>
+									<!--
+									<div class="publication" style="display: flex; gap: 30px; max-width: 1200px; margin: 20px;">
+										<div class="figure" style="flex: 0 0 40%;">
+											<img src="demo.jpg" alt="Demonstration" style="width: 100%; height: auto; border: 1px solid #ccc;">
+										</div>
+									
+										<div class="content" style="flex: 1; display: flex; flex-direction: column; gap: 15px;">
+											<h1 style="font-size: 20px; font-weight: bold; margin: 0;">
+												S<sup>2</sup>FT: Efficient, Scalable and Generalizable LLM Fine-tuning by Structured Sparsity
+											</h1>
+									
+											<div style="font-size: 12px; color: #333; margin: 0;">
+												Xinyu Yang, Jixuan Leng, Geyang Guo, Jiawei Zhao, Ryumei Nakada, Linjun Zhang, Huaxiu Yao, Beidi Chen
+											</div>
+									
+											<div style="font-size: 16px; color: #555;">
+												<div>CoRL Workshop on Learning Effective Abstractions for Planning 2024</div>
+												<div style="margin-top: 10px;">
+													<a href="#" style="color: #2b7bb9; text-decoration: none; margin-right: 15px;">Paper</a> /
+													<a href="#" style="color: #2b7bb9; text-decoration: none; margin-right: 15px; margin-left: 15px;">Project Page</a> /
+													<a href="#" style="color: #2b7bb9; text-decoration: none; margin-left: 15px;">Code</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>S<sup>2</sup>FT: Efficient, Scalable and Generalizable LLM Fine-tuning by Structured Sparsity</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Terraformed a small moon</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Snapped dark matter in the wild</h4>
+												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+											</div>
+										</article>
+									</div>
+								</div>
+							-->
+							</section>
+
+						<!-- Five -->
+						<section id="five">
+							<style>
+								@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+								h4.fancy-heading {  /* More specific selector */
+									font-family: "Berkshire Swash", serif;
+								}
+							</style>
+							<style>
+								/* Reset all text decoration for this specific link */
+								.permanent-no-underline {
+									text-decoration: none !important;
+									-webkit-text-decoration: none !important;
+									-moz-text-decoration: none !important;
+									border-bottom: none !important;
+									box-shadow: none !important;
+								}
+								
+								/* Handle all states */
+								.permanent-no-underline:link,
+								.permanent-no-underline:visited,
+								.permanent-no-underline:hover,
+								.permanent-no-underline:active,
+								.permanent-no-underline:focus {
+									text-decoration: none !important;
+									-webkit-text-decoration: none !important;
+									-moz-text-decoration: none !important;
+									border-bottom: none !important;
+									box-shadow: none !important;
+								}
+								</style>
+							<div class="container">
+								<h3>Experience</h3>
+								<h4 class="fancy-heading">Education</h4>
+								<div style="display: flex; margin-bottom: 20px;">
+									<img src="images/cmu.png" alt="Carnegie Mellon University logo" style="width: 70px; height: 70px; object-fit: contain; margin-left: 0.25em; margin-right: 0.25em; position: relative; top: 0.6em;">
+									<div style="margin-left: 20px; display: flex; flex-direction: column;">
+										<a href="https://www.cmu.edu/" class="permanent-no-underline" style="color: #a385e2; font-size: 20px; text-decoration: none; margin-bottom: 8px;">Carnegie Mellon University</a>
+										<div style="color: #4B5563; font-size: 16px; line-height: 1.5;">
+											Ph.D. student in ECE, advised by Prof. <a href="https://www.andrew.cmu.edu/user/beidic/" style="text-decoration: none;">Beidi Chen</a>. <br>Aug 2023 - Present
+										</div>
+									</div>
+								</div>
+							
+								<div style="display: flex; margin-bottom: 20px;">
+									<img src="images/sjtu.png" alt="SJTU Logo" style="width: 80px; height: 80px; object-fit: contain; margin-left: -0.03em; position: relative; top: 0.3em;">
+									<div style="margin-left: 20px; display: flex; flex-direction: column;">
+										<a href="https://en.sjtu.edu.cn/" class="permanent-no-underline" style="color: #a385e2; font-size: 20px; text-decoration: none; margin-bottom: 8px;">Shanghai Jiao Tong University</a>
+										<div style="color: #4B5563; font-size: 16px; line-height: 1.5;">
+											B.Eng. in CS, advised by Prof. <a href="https://www.cs.sjtu.edu.cn/en/PeopleDetail.aspx?id=140" style="text-decoration: none;">Yong Yu</a>. <span style="color: #6B7280;">(Ranking: 1/29, GPA: 4.0/4.3)</span><br>Sep 2019 - Jun 2023
+										</div>
+									</div>
+								</div>
+								<h4 class="fancy-heading">Research</h4>
+								<div style="display: flex; margin-bottom: 20px;">
+									<img src="images/stanford3.png" alt="Stanford University logo" style="width: 80px; height: 80px; object-fit: contain; margin-left: -0.05em; position: relative; top: 0.3em;">
+									<div style="margin-left: 20px; display: flex; flex-direction: column;">
+										<a href="https://www.stanford.edu/" class="permanent-no-underline" style="color: #a385e2; font-size: 20px; text-decoration: none; margin-bottom: 8px;">Stanford University</a>
+										<div style="color: #4B5563; font-size: 16px; line-height: 1.5;">
+											Research Intern, advised by Prof. <a href="https://ai.stanford.edu/~cbfinn/" style="text-decoration: none;">Chelsea Finn</a>. <br> Mar 2022 - Oct 2023
+										</div>
+									</div>
+								</div>
+							
+								<div style="display: flex; margin-bottom: 20px;">
+									<img src="images/mit.png" alt="MIT logo" style="width: 70px; height: 70px; object-fit: contain; margin-left: 0.25em; position: relative; top: 0.6em; margin-right: 0.22em;">
+									<div style="margin-left: 20px; display: flex; flex-direction: column;">
+										<a href="https://www.mit.edu/" class="permanent-no-underline" style="color: #a385e2; font-size: 20px; text-decoration: none; text-decoration-line: none; -webkit-text-decoration-line: none; margin-bottom: 8px;">Massachusetts Institute of Technology</a>
+										<div style="color: #4B5563; font-size: 16px; line-height: 1.5;">
+											Research Intern, advised by Prof. <a href="https://songhan.mit.edu/" style="text-decoration: none;">Song Han</a>. <br> Nov 2021 - Jun 2023
+										</div>
+									</div>
+								</div>
+								<h4 class="fancy-heading">Industry</h4>
+								<div style="display: flex; margin-bottom: 20px;">
+									<img src="images/amazon.png" alt="Amazon logo" style="width: 75px; height: 75px; object-fit: contain; margin-left: 0.1em; position: relative; top: 0.5em; margin-right: 0.16em;">
+									<div style="margin-left: 20px; display: flex; flex-direction: column;">
+										<a href="https://en.wikipedia.org/wiki/A9.com/" class="permanent-no-underline" style="color: #a385e2; font-size: 20px; text-decoration: none; margin-bottom: 8px;">Amazon Search</a>
+										<div style="color: #4B5563; font-size: 16px; line-height: 1.5;">
+											Applied Scientis Intern, mentored by Dr. <a href=""http://chen-luo.com/"" style="text-decoration: none;">Chen Luo</a>. <br> May 2024 - Aug 2024
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- Six -->
+							<section id="six">
+								<style>
+									@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+									h4.fancy-heading {  /* More specific selector */
+										font-family: "Berkshire Swash", serif;
+										font-size: 22px !important;
+									}
+								</style>
+								<div class="container">
+									<h3>Service</h3>
+									<h4 class="fancy-heading">Workshop Organization</h4>
+									<ul style="margin-bottom: 15px;">
+										<li style="white-space: nowrap; text-overflow: ellipsis;">Lead Organizer and Program Chair, The 2nd Workshop on Foundation Models in the Wild, ICLR 2025</li>
+										<li style="white-space: nowrap; text-overflow: ellipsis;">Lead Organizer and Program Chair, Workshop on Foundation Models in the Wild, ICML 2024</li>
+										<li style="white-space: nowrap; text-overflow: ellipsis;">Organizer, The 3rd Workshop for OOD Generalization in CV Foundation Models, ECCV 2024</li>
+									</ul>
+									<h4 class="fancy-heading">Conference Review</h4>
+									<ul style="margin-bottom: 15px;">
+										<li>International Conference on Machine Learning (ICML), 2024-2025</li>
+										<li>International Conference on Learning Representations (ICLR), 2025</li> 
+										<li>Conference on Neural Information Processing Systems (NeurIPS), 2024</li>
+										<li>Conference on Language Modeling (COLM), 2024</li>
+										<li>Empirical Methods in Natural Language Processing (EMNLP), 2024</li>
+										<li>IEEE International Conference on Robotics & Automation (ICRA), 2025</li>
+									</ul>
+									<h4 class="fancy-heading">Journal Review</h4>
+									<ul style="margin-bottom: 15px;">
+										<li>Transactions on Machine Learning Research (TMLR)</li>
+										<li>IEEE Robotics and Automation Letters (RA-L)</li> 
+									</ul>
+								</div>
+							</section>
+
+						<!-- Seven -->
+						<section id="seven">
+							<div class="container">
+								<h3>Contact Me</h3>
+								<form method="post" action="https://formspree.io/f/xeoogvwl">
+									<div class="row gtr-uniform">
+										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" required /></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" required /></div>
+										<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" required /></div>
+										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6" required ></textarea></div>
+										<input type="hidden" name="_subject" value="New Contact Form Submission" />
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" class="primary" value="Send Message" /></li>
+												<li><input type="reset" value="Reset Form" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+							</div>
+						</section>
+
+						<!-- Eight -->
+						<section id="eight">
+							<style>
+								@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+								h4.fancy-heading {  /* More specific selector */
+									font-family: "Berkshire Swash", serif;
+								}
+							</style>
+							<div class="container">
+								<h3>Misc</h3>
+								<ul style="margin-bottom: 15px;">
+									<li style="white-space: nowrap; text-overflow: ellipsis;">Before moving to the US, I studied and lived in Shanghai, China for the first two decades of my life.</li>
+									<li style="white-space: nowrap; text-overflow: ellipsis;">Aside from research, I am passionate about traveling, dining, gaming, shopping, anime and manga.</li>
+								</ul>
+							</div>
+						</section>
+						<!-- Five -->
+						<!--
+							<section id="five">
+								<div class="container">
+									<h3>Elements</h3>
+
+									<section>
+										<h4>Text</h4>
+										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+										This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+										<hr />
+										<header>
+											<h4>Heading with a Subtitle</h4>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<header>
+											<h5>Heading with a Subtitle</h5>
+											<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+										</header>
+										<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+										<hr />
+										<h2>Heading Level 2</h2>
+										<h3>Heading Level 3</h3>
+										<h4>Heading Level 4</h4>
+										<h5>Heading Level 5</h5>
+										<h6>Heading Level 6</h6>
+										<hr />
+										<h5>Blockquote</h5>
+										<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+										<h5>Preformatted</h5>
+										<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+									</section>
+
+									<section>
+										<h4>Lists</h4>
+										<div class="row">
+											<div class="col-6 col-12-xsmall">
+												<h5>Unordered</h5>
+												<ul>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+												<h5>Alternate</h5>
+												<ul class="alt">
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Sagittis adipiscing lorem eleifend.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ul>
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<h5>Ordered</h5>
+												<ol>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+													<li>Dolor pulvinar etiam magna etiam.</li>
+													<li>Etiam vel felis at lorem sed viverra.</li>
+													<li>Felis enim feugiat dolore viverra.</li>
+												</ol>
+												<h5>Icons</h5>
+												<ul class="icons">
+													<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+													<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+													<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+													<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+													<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+													<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+												</ul>
+											</div>
+										</div>
+										<h5>Actions</h5>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Default</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Default</a></li>
+										</ul>
+										<ul class="actions small">
+											<li><a href="#" class="button primary small">Small</a></li>
+											<li><a href="#" class="button small">Small</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<div class="row">
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary">Default</a></li>
+													<li><a href="#" class="button">Default</a></li>
+													<li><a href="#" class="button alt">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6 col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small">Small</a></li>
+													<li><a href="#" class="button small">Small</a></li>
+													<li><a href="#" class="button alt small">Small</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary fit">Default</a></li>
+													<li><a href="#" class="button fit">Default</a></li>
+													<li><a href="#" class="button alt fit">Default</a></li>
+												</ul>
+											</div>
+											<div class="col-3 col-6-medium col-12-xsmall">
+												<ul class="actions stacked">
+													<li><a href="#" class="button primary small fit">Small</a></li>
+													<li><a href="#" class="button small fit">Small</a></li>
+													<li><a href="#" class="button alt small fit">Small</a></li>
+												</ul>
+											</div>
+										</div>
+									</section>
+
+									<section>
+										<h4>Table</h4>
+										<h5>Default</h5>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+
+										<h5>Alternate</h5>
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+														<th>Price</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Item One</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Two</td>
+														<td>Vis ac commodo adipiscing arcu aliquet.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Three</td>
+														<td> Morbi faucibus arcu accumsan lorem.</td>
+														<td>29.99</td>
+													</tr>
+													<tr>
+														<td>Item Four</td>
+														<td>Vitae integer tempus condimentum.</td>
+														<td>19.99</td>
+													</tr>
+													<tr>
+														<td>Item Five</td>
+														<td>Ante turpis integer aliquet porttitor.</td>
+														<td>29.99</td>
+													</tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+														<td>100.00</td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+									</section>
+
+									<section>
+										<h4>Buttons</h4>
+										<ul class="actions">
+											<li><a href="#" class="button primary">Primary</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt">Alternate</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary large">Large</a></li>
+											<li><a href="#" class="button">Default</a></li>
+											<li><a href="#" class="button alt small">Small</a></li>
+										</ul>
+										<ul class="actions fit">
+											<li><a href="#" class="button primary fit">Fit</a></li>
+											<li><a href="#" class="button fit">Fit</a></li>
+											<li><a href="#" class="button alt fit">Fit</a></li>
+										</ul>
+										<ul class="actions fit small">
+											<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+											<li><a href="#" class="button fit small">Fit + Small</a></li>
+											<li><a href="#" class="button alt fit small">Fit + Small</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+											<li><a href="#" class="button alt icon solid fa-check">Icon</a></li>
+										</ul>
+										<ul class="actions">
+											<li><span class="button primary disabled">Primary</span></li>
+											<li><span class="button disabled">Default</span></li>
+											<li><span class="button alt disabled">Alternate</span></li>
+										</ul>
+									</section>
+
+									<section>
+										<h4>Form</h4>
+										<form method="post" action="#">
+											<div class="row gtr-uniform">
+												<div class="col-6 col-12-xsmall">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+												</div>
+												<div class="col-6 col-12-xsmall">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<select name="demo-category" id="demo-category">
+														<option value="">- Category -</option>
+														<option value="1">Manufacturing</option>
+														<option value="1">Shipping</option>
+														<option value="1">Administration</option>
+														<option value="1">Human Resources</option>
+													</select>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+													<label for="demo-priority-low">Low Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-normal" name="demo-priority">
+													<label for="demo-priority-normal">Normal Priority</label>
+												</div>
+												<div class="col-4 col-12-medium">
+													<input type="radio" id="demo-priority-high" name="demo-priority">
+													<label for="demo-priority-high">High Priority</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-copy" name="demo-copy">
+													<label for="demo-copy">Email me a copy of this message</label>
+												</div>
+												<div class="col-6 col-12-medium">
+													<input type="checkbox" id="demo-human" name="demo-human" checked>
+													<label for="demo-human">I am a human and not a robot</label>
+												</div>
+												<div class="col-12">
+													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+												</div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" value="Send Message" /></li>
+														<li><input type="reset" value="Reset" class="alt" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+									<section>
+										<h4>Image</h4>
+										<h5>Fit</h5>
+										<span class="image fit"><img src="images/banner.jpg" alt="" /></span>
+										<div class="box alt">
+											<div class="row gtr-50 gtr-uniform">
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic01.jpg" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											</div>
+										</div>
+										<h5>Left &amp; Right</h5>
+										<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+										<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+									</section>
+
+								</div>
+							</section>
+						-->
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; 2024 Malachy Xinyu Yang</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
