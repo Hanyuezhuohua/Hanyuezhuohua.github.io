@@ -2076,9 +2076,9 @@ input, select, textarea {
 			mix-blend-mode: inherit;
 		}
 
-		body:has(.modal[style*="block"]) img. {
+		body:has(.modal[style*="block"]) img {
 			z-index: -1;
-			mix-blend-mode: inherit;
+			mix-blend-mode: overlay;
 		}
 
 		body:has(#cv-wrapper[style*="flex"]) sup {
@@ -2088,7 +2088,7 @@ input, select, textarea {
 
 		body:has(.modal[style*="block"]) sup {
 			z-index: -1;
-			mix-blend-mode: inherit;
+			mix-blend-mode: overlay;
 		}
 
 		.image[data-position="top left"] img {
