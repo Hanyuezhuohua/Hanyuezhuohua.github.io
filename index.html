@@ -319,56 +319,101 @@
 							<section id="four">
 								<div class="container">
 									<h3>Publications</h3>
-									<!--
-									<div class="publication" style="display: flex; gap: 30px; max-width: 1200px; margin: 20px;">
-										<div class="figure" style="flex: 0 0 40%;">
-											<img src="demo.jpg" alt="Demonstration" style="width: 100%; height: auto; border: 1px solid #ccc;">
-										</div>
-									
-										<div class="content" style="flex: 1; display: flex; flex-direction: column; gap: 15px;">
-											<h1 style="font-size: 20px; font-weight: bold; margin: 0;">
-												S<sup>2</sup>FT: Efficient, Scalable and Generalizable LLM Fine-tuning by Structured Sparsity
-											</h1>
-									
-											<div style="font-size: 12px; color: #333; margin: 0;">
-												Xinyu Yang, Jixuan Leng, Geyang Guo, Jiawei Zhao, Ryumei Nakada, Linjun Zhang, Huaxiu Yao, Beidi Chen
-											</div>
-									
-											<div style="font-size: 16px; color: #555;">
-												<div>CoRL Workshop on Learning Effective Abstractions for Planning 2024</div>
-												<div style="margin-top: 10px;">
-													<a href="#" style="color: #2b7bb9; text-decoration: none; margin-right: 15px;">Paper</a> /
-													<a href="#" style="color: #2b7bb9; text-decoration: none; margin-right: 15px; margin-left: 15px;">Project Page</a> /
-													<a href="#" style="color: #2b7bb9; text-decoration: none; margin-left: 15px;">Code</a>
+									<style>
+										@import url('https://fonts.googleapis.com/css?family=Newsreader');
+										@import url('https://fonts.googleapis.com/css?family=Iceberg');
+										.publication_font {  /* More specific selector */
+											font-family: "Newsreader", serif;
+										}
+									</style>
+		
+								<div class="publication" style="max-width: 1200px; margin: 20px auto;">
+									<div style="display: flex; gap: 30px;">
+										<!-- Image container with fixed width -->
+										<div style="flex: 0 0 350px; position: relative;">
+											<img src="images/s2ft.jpg" alt="Demonstration" 
+												style="width: 100%; height: auto; object-fit: cover; border-radius: 8px;">
+											<div style="position: absolute; right: 0; top: 0;">
+												<div style="background-color: #a385e2; color: white; padding: 0px 10px 0px 10px; font-size: 8px; font-weight: 500; line-height: 1.5; font-family: Iceberg, sans-serif;">
+													NeurIPS 2024 
 												</div>
 											</div>
 										</div>
+										
+										<!-- Content container -->
+										<div style="flex: 1; display: flex; flex-direction: column; gap: 15px;">
+											<h1 class="publication_font" style="font-size: 20px; margin: 0; line-height: 1.3;">
+												S<sup>2</sup>FT: Efficient, Scalable and Generalizable LLM Fine-tuning by Structured Sparsity
+											</h1>
+											
+											<div style="font-size: 14px; color: #333; margin: 0; margin-top: -10px; line-height: 1.4;">
+												Xinyu Yang, Jixuan Leng, Geyang Guo, Jiawei Zhao, Ryumei Nakada, Linjun Zhang, Huaxiu Yao, Beidi Chen
+											</div>
+											
+											<div style="font-size: 16px; color: #555;">
+                                                <div style="margin-top: -10px;">
+                                                    <a href="#" class="link-item">
+                                                        <i class="fas fa-file-pdf"></i>
+                                                        Paper
+                                                      </a>
+                                                      <span class="separator">/</span>
+                                                      <a href="#" class="link-item">
+                                                        <i class="fas fa-globe"></i>
+                                                        Project Page
+                                                      </a>
+                                                      <span class="separator">/</span>
+                                                      <a href="#" class="link-item">
+                                                        <i class="fab fa-github"></i>
+                                                        Code
+                                                      </a>
+                                                </div>
+                                            </div>
+										</div>
 									</div>
-									<div class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>S<sup>2</sup>FT: Efficient, Scalable and Generalizable LLM Fine-tuning by Structured Sparsity</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+									<div style="display: flex; gap: 30px; margin-top: 40px">
+										<!-- Image container with fixed width -->
+										<div style="flex: 0 0 350px; position: relative;">
+											<img src="images/ape.jpg" alt="Demonstration" 
+												style="width: 100%; height: auto; object-fit: cover; border-radius: 8px;">
+											<div style="position: absolute; right: 0; top: 0;">
+												<div style="background-color: #a385e2; color: white; padding: 0px 10px 0px 10px; font-size: 8px; font-weight: 500; line-height: 1.5; font-family: Iceberg, sans-serif;">
+													Under Review 
+												</div>
 											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Terraformed a small moon</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+										</div>
+										
+										<!-- Content container -->
+										<div style="flex: 1; display: flex; flex-direction: column; gap: 15px;">
+											<h1 class="publication_font" style="font-size: 20px; margin: 0; line-height: 1.3;">
+												APE: Faster and Longer Context‑Augmented Generation via Adaptive Parallel Encoding
+											</h1>
+											
+											<div style="font-size: 14px; color: #333; margin: 0; margin-top: -10px; line-height: 1.4;">
+												Xinyu Yang, Tianqi Chen, Beidi Chen
 											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Snapped dark matter in the wild</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
+											
+											<div style="font-size: 16px; color: #555;">
+                                                <div style="margin-top: -10px;">
+                                                    <a href="#" class="link-item">
+                                                        <i class="fas fa-file-pdf"></i>
+                                                        Paper
+                                                      </a>
+                                                      <span class="separator">/</span>
+                                                      <a href="#" class="link-item">
+                                                        <i class="fas fa-globe"></i>
+                                                        Project Page
+                                                      </a>
+                                                      <span class="separator">/</span>
+                                                      <a href="#" class="link-item">
+                                                        <i class="fab fa-github"></i>
+                                                        Code
+                                                      </a>
+                                                </div>
+                                            </div>
+										</div>
 									</div>
 								</div>
-							-->
+
 							</section>
 
 						<!-- Five -->
