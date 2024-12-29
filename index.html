@@ -67,15 +67,6 @@
 							<a href="#" onclick="showCV(event)" class="icon solid fa-file">
 								<span class="label">CV</span>
 							</a>
-							<div id="cv-wrapper" style="display: none;" onclick="hideCV(event)">
-								<div id="cv-viewer">
-									<iframe src="images/CV_Xinyu_Yang.pdf" 
-											width="100%" 
-											height="800px"
-											class="pdf-viewer">
-									</iframe>
-								</div>
-							</div>
 						</li>
 						
 						<style>
@@ -101,19 +92,6 @@
 						}
 						</style>
 						
-						<script>
-						function showCV(e) {
-							e.preventDefault();
-							document.getElementById('cv-wrapper').style.display = 'flex';
-						}
-						
-						function hideCV(e) {
-							// Only close if clicking the wrapper (outside the PDF), not the PDF itself
-							if (e.target.id === 'cv-wrapper') {
-								document.getElementById('cv-wrapper').style.display = 'none';
-							}
-						}
-						</script>
 						<li><a href="mailto:xinyuagi@cmu.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						<li><a href="https://scholar.google.com/citations?user=Fvq2R14AAAAJ" class="icon ai ai-google-scholar" style="transform: scale(1.15);"><span class="label">google Scholar</span></a></li>
 						<li><a href="https://github.com/Hanyuezhuohua" class="icon brands fa-github"><span class="label">Github</span></a></li>
@@ -122,59 +100,83 @@
 						<li><a href="https://www.linkedin.com/in/xinyu-yang-37163a259/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
 						<li><a href="https://www.instagram.com/hanyuezhuohua" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 						-->
-						<style>
-							.modal {
-							 display: none;
-							 position: fixed;
-							 top: 50%;
-							left: 50%;
-							transform: translate(-50%, -50%);
-							 width: 100%;
-							 height: 100%;
-							 background-color: rgba(0,0,0,0.7);
-							 z-index: 10010;
-							}
-							
-							.modal-content {
-							 position: relative;
-							 margin: auto;
-							 padding: 20px;
-							 width: 90vw;  /* Use viewport width */
-							 height: 90vh; /* Use viewport height */
-							 top: 50%;
-							 transform: translateY(-50%);
-							 display: flex;  /* Added for image centering */
-							justify-content: center;  /* Center horizontally */
-							align-items: center;  /* Center vertically */
-							z-index: 10011;
-							}
-
-							.modal-content img {
-								max-width: 100%;
-								max-height: 100%;
-								object-fit: contain;  /* Maintain aspect ratio */
-								margin: auto;
-							}
-							</style>
-							
-							<div id="imageModal" class="modal" onclick="this.style.display='none'">
-								<div class="modal-content">
-									<img id="modalImg" src="">
-								</div>
-							</div>
-							
-							<script>
-								function showImage(imgSrc) {
-									const modalImg = document.getElementById('modalImg');
-									modalImg.src = imgSrc;
-									document.getElementById('imageModal').style.display = 'block';									
-								}
-							</script>
+						
 						<li><a class="icon brands fa-weixin" style="cursor: pointer; " onclick="showImage('images/wechat.jpeg')"><span class="label">Wechat</span></a></li>
 					</ul>
 				</footer>
 			</section>
 
+			<div id="cv-wrapper" style="display: none;" onclick="hideCV(event)">
+				<div id="cv-viewer">
+					<iframe src="images/CV_Xinyu_Yang.pdf" 
+							width="100%" 
+							height="800px"
+							class="pdf-viewer">
+					</iframe>
+				</div>
+			</div>
+			<script>
+				function showCV(e) {
+					e.preventDefault();
+					document.getElementById('cv-wrapper').style.display = 'flex';
+				}
+				
+				function hideCV(e) {
+					// Only close if clicking the wrapper (outside the PDF), not the PDF itself
+					if (e.target.id === 'cv-wrapper') {
+						document.getElementById('cv-wrapper').style.display = 'none';
+					}
+				}
+			</script>
+
+			<style>
+				.modal {
+				display: none;
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0,0,0,0.7);
+				z-index: 10010;
+				}
+				
+				.modal-content {
+				position: relative;
+				margin: auto;
+				padding: 20px;
+				width: 90vw;  /* Use viewport width */
+				height: 90vh; /* Use viewport height */
+				top: 50%;
+				transform: translateY(-50%);
+				display: flex;  /* Added for image centering */
+				justify-content: center;  /* Center horizontally */
+				align-items: center;  /* Center vertically */
+				z-index: 10011;
+				}
+
+				.modal-content img {
+					max-width: 100%;
+					max-height: 100%;
+					object-fit: contain;  /* Maintain aspect ratio */
+					margin: auto;
+				}
+				</style>
+				
+				<div id="imageModal" class="modal" onclick="this.style.display='none'">
+					<div class="modal-content">
+						<img id="modalImg" src="">
+					</div>
+				</div>
+				
+				<script>
+					function showImage(imgSrc) {
+						const modalImg = document.getElementById('modalImg');
+						modalImg.src = imgSrc;
+						document.getElementById('imageModal').style.display = 'block';									
+					}
+				</script>
 		<!-- Wrapper -->
 			<div id="wrapper">
 				<!-- Main -->
