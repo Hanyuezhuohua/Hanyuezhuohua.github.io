@@ -2080,6 +2080,14 @@ input, select, textarea {
 			z-index: -1;
 			mix-blend-mode: overlay;
 		}
+		
+		body:has(.modal[style*="block"]) .publication-badge {
+			z-index: -1;
+		}
+
+		body:has(#cv-wrapper[style*="flex"]) .publication-badge {
+			z-index: -1;
+		}
 
 		body:has(#cv-wrapper[style*="flex"]) sup {
 			z-index: -1;
