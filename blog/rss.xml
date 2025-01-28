@@ -306,5 +306,6 @@ What is the count of values equal to 44? Please answer this question without usi
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h1&gt;Reproducible Code&lt;/h1&gt;
-&lt;p&gt;We provide the data generation process of QMKAR, MQAR, and counting problems at. Currently, we assess these problems by manually interacting with the models via the website. An automated version with API support will be released in a future update.&lt;/p&gt;
+&lt;p&gt;We release the data generation process of QMKAR, MQAR, and counting problems. Currently, we assess these problems by manually interacting with the models via the website. An automated version with API support will be released in a future update.&lt;/p&gt;
+&lt;p&gt;::github{repo=&quot;Hanyuezhuohua/QMKAR&quot;}&lt;/p&gt;
 </content:encoded></item></channel></rss>
