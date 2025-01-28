@@ -27,7 +27,7 @@ jobs:
           # 指定 Node.js 版本，默认为 20
           node-version: 20 # 可选
           # 指定包管理器及其版本，默认根据锁定文件自动检测
-          package-manager: pnpm@latest # 可选
+          package-manager: pnpm@9.14.4
 
   deploy:
     needs: build
