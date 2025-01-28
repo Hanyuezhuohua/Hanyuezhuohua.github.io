@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hanyuezhuohua.github.io/sitemap-index.xml
