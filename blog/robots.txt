@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hanyuezhuohua.github.io/sitemap-index.xml
+Sitemap: https://xinyuyang.me/sitemap-index.xml
