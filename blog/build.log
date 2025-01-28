@@ -1,0 +1,144 @@
+
+> fuwari@0.0.1 build /Users/malachite/Desktop/fuwari
+> astro build && pagefind --site dist "--verbose"
+
+22:28:44 [content] Syncing content
+22:28:44 [content] Synced content
+22:28:44 [types] Generated 169ms
+22:28:44 [build] output: "static"
+22:28:44 [build] directory: /Users/malachite/Desktop/fuwari/dist/
+22:28:44 [build] Collecting build info...
+22:28:44 [build] ✓ Completed in 210ms.
+22:28:44 [build] Building static entrypoints...
+22:28:46 [vite] ✓ built in 1.73s
+22:28:46 [build] ✓ Completed in 1.74s.
+
+ building client (vite) 
+22:28:46 [vite] transforming...
+22:28:46 [vite] ✓ 148 modules transformed.
+22:28:46 [vite] rendering chunks...
+22:28:46 [vite] computing gzip size...
+22:28:46 [vite] dist/_astro/Layout.DSulWsr7.css                                       4.42 kB │ gzip:  1.43 kB
+22:28:46 [vite] dist/_astro/Layout.BGTS0f8r.css                                      13.28 kB │ gzip:  2.54 kB
+22:28:46 [vite] dist/_astro/class.Bvena8yX.js                                         0.16 kB │ gzip:  0.11 kB
+22:28:46 [vite] dist/_astro/url-utils.RkAWFzEF.js                                     0.26 kB │ gzip:  0.19 kB
+22:28:46 [vite] dist/_astro/input.DEMAiF-F.js                                         0.46 kB │ gzip:  0.29 kB
+22:28:46 [vite] dist/_astro/setting-utils.De4sCiaH.js                                 0.91 kB │ gzip:  0.44 kB
+22:28:46 [vite] dist/_astro/preload-helper.B8UsIWFx.js                                0.99 kB │ gzip:  0.61 kB
+22:28:46 [vite] dist/_astro/client.svelte.CHuJF3Sl.js                                 1.09 kB │ gzip:  0.61 kB
+22:28:46 [vite] dist/_astro/SwupScriptsPlugin.o5PkFIdr.js                             1.10 kB │ gzip:  0.62 kB
+22:28:46 [vite] dist/_astro/index.modern.CkIAsQri.js                                  1.76 kB │ gzip:  0.91 kB
+22:28:46 [vite] dist/_astro/DisplaySettings.BqiXipNm.js                               2.06 kB │ gzip:  1.10 kB
+22:28:46 [vite] dist/_astro/page.CcpQKkEI.js                                          2.07 kB │ gzip:  0.96 kB
+22:28:46 [vite] dist/_astro/SwupHeadPlugin.DgE0cn6v.js                                2.57 kB │ gzip:  1.28 kB
+22:28:46 [vite] dist/_astro/LightDarkSwitch.Opf0JzAo.js                               3.14 kB │ gzip:  1.27 kB
+22:28:46 [vite] dist/_astro/zh_TW.C2hT_hxB.js                                         4.80 kB │ gzip:  2.02 kB
+22:28:46 [vite] dist/_astro/SwupA11yPlugin.BbekW4OE.js                                6.00 kB │ gzip:  2.32 kB
+22:28:46 [vite] dist/_astro/SwupPreloadPlugin.CVIvv7Xf.js                             6.05 kB │ gzip:  2.35 kB
+22:28:46 [vite] dist/_astro/Search.ChKB4MoB.js                                        6.11 kB │ gzip:  2.80 kB
+22:28:46 [vite] dist/_astro/SwupScrollPlugin.CPHDirUY.js                              8.00 kB │ gzip:  2.41 kB
+22:28:46 [vite] dist/_astro/Layout.astro_astro_type_script_index_0_lang.DE0315gS.js  16.69 kB │ gzip:  5.39 kB
+22:28:46 [vite] dist/_astro/render.CZv6gCDB.js                                       18.72 kB │ gzip:  7.62 kB
+22:28:46 [vite] dist/_astro/Swup.T76dPaas.js                                         21.63 kB │ gzip:  7.43 kB
+22:28:46 [vite] dist/_astro/Icon.CRsLbVgp.js                                         26.39 kB │ gzip: 10.70 kB
+22:28:46 [vite] dist/_astro/Layout.astro_astro_type_script_index_1_lang.B5THuH1g.js  30.48 kB │ gzip: 14.67 kB
+22:28:46 [vite] dist/_astro/photoswipe.esm.CKijkUPa.js                               60.42 kB │ gzip: 17.43 kB
+22:28:46 [vite] ✓ built in 380ms
+
+ generating static routes 
+22:28:46 ▶ src/pages/about.astro
+22:28:46   └─ /about/index.html (+11ms) 
+22:28:46 ▶ src/pages/archive/category/uncategorized.astro
+22:28:46   └─ /archive/category/uncategorized/index.html (+3ms) 
+22:28:46 ▶ src/pages/archive/category/[category].astro
+22:28:46   └─ /archive/category/Model Arch/index.html (+2ms) 
+22:28:46 ▶ src/pages/archive/tag/[tag].astro
+22:28:46   ├─ /archive/tag/Analysis/index.html (+4ms) 
+22:28:46   └─ /archive/tag/Benchmark/index.html (+2ms) 
+22:28:46 ▶ src/pages/archive/index.astro
+22:28:46   └─ /archive/index.html (+2ms) 
+22:28:46 ▶ src/pages/posts/[...slug].astro
+22:28:46   └─ /posts/qmkar/index.html (+3ms) 
+22:28:46 λ src/pages/robots.txt.ts
+22:28:46   └─ /robots.txt (+1ms) 
+22:28:46 λ src/pages/rss.xml.ts
+22:28:46   └─ /rss.xml (+15ms) 
+22:28:46 ▶ src/pages/[...page].astro
+22:28:46   └─ /index.html (+3ms) 
+22:28:46 ✓ Completed in 130ms.
+
+ generating optimized images 
+22:28:46   ▶ /_astro/diexi.B7n88l5s_Z2bSkWy.webp (reused cache entry) (+1ms) (1/1)
+22:28:46 ✓ Completed in 1ms.
+
+22:28:46 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+(-3.93 KB)	8.75% reduction in //dist/index.html
+(-3.45 KB)	8.79% reduction in //dist/about/index.html
+(-3.72 KB)	9.65% reduction in //dist/archive/index.html
+(-7.52 KB)	6.34% reduction in //dist/posts/qmkar/index.html
+(-3.32 KB)	9.03% reduction in //dist/archive/category/uncategorized/index.html
+(-3.73 KB)	9.67% reduction in //dist/archive/category/Model Arch/index.html
+(-3.73 KB)	9.67% reduction in //dist/archive/tag/Analysis/index.html
+(-3.73 KB)	9.67% reduction in //dist/archive/tag/Benchmark/index.html
+✓ Successfully compressed a total of 8 HTML files for 33.13 KB.
+(-23 Bytes)	1.12% reduction in //dist/_astro/DisplaySettings.BqiXipNm.js
+(-61 Bytes)	0.23% reduction in //dist/_astro/Icon.CRsLbVgp.js
+(-51 Bytes)	0.31% reduction in //dist/_astro/Layout.astro_astro_type_script_index_0_lang.DE0315gS.js
+(-379 Bytes)	1.24% reduction in //dist/_astro/Layout.astro_astro_type_script_index_1_lang.B5THuH1g.js
+(-NaN undefined)	-0.10% reduction in //dist/_astro/LightDarkSwitch.Opf0JzAo.js
+(-79 Bytes)	1.29% reduction in //dist/_astro/Search.ChKB4MoB.js
+(-NaN undefined)	-0.43% reduction in //dist/_astro/Swup.T76dPaas.js
+(-5 Bytes)	0.08% reduction in //dist/_astro/SwupA11yPlugin.BbekW4OE.js
+(-NaN undefined)	-0.70% reduction in //dist/_astro/SwupHeadPlugin.DgE0cn6v.js
+(-NaN undefined)	-0.60% reduction in //dist/_astro/SwupPreloadPlugin.CVIvv7Xf.js
+(-NaN undefined)	-0.09% reduction in //dist/_astro/SwupScriptsPlugin.o5PkFIdr.js
+(-NaN undefined)	-0.11% reduction in //dist/_astro/SwupScrollPlugin.CPHDirUY.js
+(-1 Bytes)	0.64% reduction in //dist/_astro/class.Bvena8yX.js
+(-NaN undefined)	-0.83% reduction in //dist/_astro/client.svelte.CHuJF3Sl.js
+(-NaN undefined)	-0.34% reduction in //dist/_astro/index.modern.CkIAsQri.js
+(-10 Bytes)	2.19% reduction in //dist/_astro/input.DEMAiF-F.js
+(-NaN undefined)	-2.03% reduction in //dist/_astro/page.CcpQKkEI.js
+(-25 Bytes)	0.04% reduction in //dist/_astro/photoswipe.esm.CKijkUPa.js
+(-NaN undefined)	-1.01% reduction in //dist/_astro/preload-helper.B8UsIWFx.js
+(-175 Bytes)	0.94% reduction in //dist/_astro/render.CZv6gCDB.js
+(-12 Bytes)	1.32% reduction in //dist/_astro/setting-utils.De4sCiaH.js
+(-15 Bytes)	5.73% reduction in //dist/_astro/url-utils.RkAWFzEF.js
+(-1 Bytes)	0.02% reduction in //dist/_astro/zh_TW.C2hT_hxB.js
+✓ Successfully compressed a total of 23 JavaScript files for 609 Bytes.
+22:28:47 [build] 8 page(s) built in 3.33s
+22:28:47 [build] Complete!
+pagefind npm wrapper: Running the executable at /Users/malachite/Desktop/fuwari/node_modules/.pnpm/@pagefind+darwin-arm64@1.2.0/node_modules/@pagefind/darwin-arm64/bin/pagefind_extended
+
+Running Pagefind v1.2.0 (Extended)
+Running in verbose mode
+Running from: "/Users/malachite/Desktop/fuwari"
+Source:       "dist"
+Output:       "dist/pagefind"
+
+[Walking source directory]
+Found 8 files matching **/*.{html}
+
+[Parsing files]
+Found a data-pagefind-body element on the site.
+↳ Ignoring pages without this tag.
+
+[Reading languages]
+Discovered 1 language: en
+  * en: 2 pages
+
+[Building search indexes]
+Language en: 
+  Indexed 2 pages
+  Indexed 642 words
+  Indexed 0 filters
+  Indexed 0 sorts
+
+Total: 
+  Indexed 1 language
+  Indexed 2 pages
+  Indexed 642 words
+  Indexed 0 filters
+  Indexed 0 sorts
+
+Finished in 0.025 seconds
+pagefind npm wrapper: Process exited with status 0
