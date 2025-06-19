@@ -245,7 +245,7 @@
 								<a href="https://www.andrew.cmu.edu/user/beidic/">Beidi Chen</a>. I also collaborate closely with Prof. 
 								<a href="https://tqchen.com/">Tianqi Chen</a> at <a href="https://www.cmu.edu/">CMU</a> and Prof. 
 								<a href="https://www.huaxiuyao.io/">Huaxiu Yao</a> at <a href="https://www.unc.edu/">UNC</a><img src="images/unc.png" alt="UNC Logo"  class="inline align-middle" style="height: 1em; width: auto; margin-left: 0.15em; position: relative; top: 0.1em;" />.
-								Previously, I obtained my bachelar’s degree from 
+								Previously, I obtained my bachelar's degree from 
 								<a href="https://acm.sjtu.edu.cn/home">ACM Honors Class</a>, 
 								<a href="http://zhiyuan.sjtu.edu.cn/">Zhiyuan College</a>, 
 								<a href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a><img src="images/sjtu.png" alt="SJTU Logo"  class="inline align-middle" style="height: 1.3em; width: auto; margin-left: 0.2em; position: relative; top: 0.3em;" />, 
@@ -287,60 +287,94 @@
 									.purple-link:hover {
 										text-decoration: underline;
 									}
+									.scrollable-news {
+										max-height: 400px;
+										overflow-y: auto;
+										padding: 15px;
+										margin-top: 20px;
+									}
+									.scrollable-news::-webkit-scrollbar {
+										width: 8px;
+									}
+									.scrollable-news::-webkit-scrollbar-track {
+										background: #f1f1f1;
+										border-radius: 4px;
+									}
+									.scrollable-news::-webkit-scrollbar-thumb {
+										background: #a385e2;
+										border-radius: 4px;
+									}
+									.scrollable-news::-webkit-scrollbar-thumb:hover {
+										background: #8b6fd8;
+									}
 								</style>
 
+								<!-- Fixed first news item -->
 								<div class="content-row">
 									<div class="full-width-text">I will dedicate 30 mins every week for meetings to chat about life, career plan, or research ideas related to foundation models. I especially welcome and encourage students from <a href="https://en.wikipedia.org/wiki/Underrepresented_group" class="purple-link">underrepresented groups</a> to reach out and will prioritize these meetings. Please <a href="#seven">email me</a> to schedule a meeting if you are interested.</div>
 								</div>
 
-								<div class="content-row">
-									<div class="date">June 16, 2025</div>
-									<div>📣 Our preprint paper released: <a href="https://arxiv.org/pdf/2506.09991" class="purple-link">Multiverse: Your Language Models Secretly Decide How to Parallelize and Merge Generation</a>. Check out the <a href="https://multiverse4fm.github.io/" class="purple-link">website</a> for more details.</div>
-								</div>
-
-								<div class="content-row">
-									<div class="date">May 1, 2025</div>
-									<div>📢 We welcome submissions to <a href="https://openreview.net/group?id=ICML.cc/2025/Workshop/R2-FM" class="purple-link">The 2nd Workshop on Reliable and Responsible Foundation Models at ICML 2025</a>. More details are available on our <a href="https://r2-fm.github.io/" class="purple-link">webpage</a>.</div>
-								</div>
-
-								<div class="content-row">
-									<div class="date">April 24, 2025</div>
-									<div>I'm lead-organizing the 2nd Workshop on Foundation Models in the Wild at ICLR 2025. Thanks to all co-organizers and speakers for their support. See you at Singapore.</div>
-								</div>
-
-								<div class="content-row">
-									<div class="date">April 13, 2025</div>
-									<div>📣 Excited to share that our proposal for The 2nd Workshop on Reliable and Responsible Foundation Models has been accepted to ICML 2025. Stay tuned for updates and details.</div>
-								</div>
-
-								<div class="content-row">
-									<div class="date">Jan 22, 2025</div>
-									<div>📣 <a href="https://arxiv.org/pdf/2502.05431" class="purple-link">APE: Faster and Longer Context‑Augmented Generation via Adaptive Parallel Encoding</a> and <a href="https://arxiv.org/pdf/2406.02913" class="purple-link">Zeroth-Order Fine-Tuning of LLMs with Extreme Sparsity</a> have been accepted to ICLR 2025!</div>
-								</div>
-
-								<div class="content-row">
-									<div class="date">Jan 13, 2025</div>
-									<div>📢 We welcome submissions to <a href="https://openreview.net/group?id=ICLR.cc/2025/Workshop/FM-Wild" class="purple-link">The 2nd Workshop on Foundation Models in the Wild at ICLR 2025</a>. More details are available on our <a href="https://fm-wild-community.github.io/" class="purple-link">webpage</a>.</div>
-								</div>
-
-								<div class="content-row">
-									<div class="date">Dec 20, 2024</div>
-									<div>📣 Excited to share that our proposal for <a href="https://openreview.net/pdf?id=FXV5nMYSxq" class="purple-link">The 2nd Workshop on Foundation Models in the Wild</a> has been accepted to ICLR 2025. Stay tuned for updates and details.</div>
-								</div>
+								<!-- Scrollable container for remaining news -->
+								<div class="scrollable-news">
+									<div class="content-row">
+										<div class="date">June 19, 2025</div>
+										<div>I will be giving a talk on <a href="https://arxiv.org/pdf/2506.09991" class="purple-link">Multiverse</a> at <a href="https://www.jiqizhixin.com/"  class="purple-link">JIQIZHIXIN (机器之心)</a>.</div>
+									</div>
 								
-								<div class="content-row">
-									<div class="date">Dec 09, 2024</div>
-									<div>📢 Our NeurIPS paper released: <a href="https://arxiv.org/abs/2412.06289" class="purple-link">S<sup>2</sup>FT: Efficient, Scalable and Generalizable LLM Fine-tuning by Structured Sparsity</a>. Check out the <a href="https://github.com/Infini-AI-Lab/S2FT" class="purple-link">code</a> and <a href="https://infini-ai-lab.github.io/S2FT-Page/" class="purple-link">blog</a> for more details.</div>
-								</div>
+									<div class="content-row">
+										<div class="date">June 17, 2025</div>
+										<div>I will be giving a talk on <a href="https://arxiv.org/pdf/2506.09991" class="purple-link">Multiverse</a> at the <a href="https://asap-seminar.github.io/"  class="purple-link">ASAP Seminar Series</a> (<a href="https://asap-seminar.github.io/assets/slides/Multiverse_ASAP.pdf" class="purple-link">Slides</a>, <a href="https://youtu.be/TPz3OFpzivc" class="purple-link">Video</a>).</div>
+									</div>
 
-								<div class="content-row">
-									<div class="date">Sep 30, 2024</div>
-									<div>I'm co-organizing  <a href="https://www.ood-cv.org/" class="purple-link">The 3rd Workshop for Out-of-Distribution Generalization in Computer Vision Foundation Models</a> at ECCV 2024. See you at MiCo Milano.</div>
-								</div>
-								
-								<div class="content-row">
-									<div class="date">July 26, 2024</div>
-									<div>I'm lead-organizing <a href="https://icml-fm-wild.github.io/" class="purple-link">Workshop on Foundation Models in the Wild</a> at ICML 2024. Thanks to all co-organizers and speakers for their support. See you at Vienna.</div>
+									<div class="content-row">
+										<div class="date">June 16, 2025</div>
+										<div>Our preprint paper released: <a href="https://arxiv.org/pdf/2506.09991" class="purple-link">Multiverse: Your Language Models Secretly Decide How to Parallelize and Merge Generation</a>. Check out the <a href="https://multiverse4fm.github.io/" class="purple-link">website</a> for more details.</div>
+									</div>
+
+									<div class="content-row">
+										<div class="date">May 1, 2025</div>
+										<div>We welcome submissions to <a href="https://openreview.net/group?id=ICML.cc/2025/Workshop/R2-FM" class="purple-link">The 2nd Workshop on Reliable and Responsible Foundation Models at ICML 2025</a>. More details are available on our <a href="https://r2-fm.github.io/" class="purple-link">webpage</a>.</div>
+									</div>
+
+									<div class="content-row">
+										<div class="date">April 24, 2025</div>
+										<div>I'm lead-organizing the 2nd Workshop on Foundation Models in the Wild at ICLR 2025. Thanks to all co-organizers and speakers for their support. See you at Singapore.</div>
+									</div>
+
+									<div class="content-row">
+										<div class="date">April 13, 2025</div>
+										<div>Excited to share that our proposal for The 2nd Workshop on Reliable and Responsible Foundation Models has been accepted to ICML 2025. Stay tuned for updates and details.</div>
+									</div>
+
+									<div class="content-row">
+										<div class="date">Jan 22, 2025</div>
+										<div><a href="https://arxiv.org/pdf/2502.05431" class="purple-link">APE: Faster and Longer Context‑Augmented Generation via Adaptive Parallel Encoding</a> and <a href="https://arxiv.org/pdf/2406.02913" class="purple-link">Zeroth-Order Fine-Tuning of LLMs with Extreme Sparsity</a> have been accepted to ICLR 2025!</div>
+									</div>
+
+									<div class="content-row">
+										<div class="date">Jan 13, 2025</div>
+										<div>We welcome submissions to <a href="https://openreview.net/group?id=ICLR.cc/2025/Workshop/FM-Wild" class="purple-link">The 2nd Workshop on Foundation Models in the Wild at ICLR 2025</a>. More details are available on our <a href="https://fm-wild-community.github.io/" class="purple-link">webpage</a>.</div>
+									</div>
+
+									<div class="content-row">
+										<div class="date">Dec 20, 2024</div>
+										<div>Excited to share that our proposal for <a href="https://openreview.net/pdf?id=FXV5nMYSxq" class="purple-link">The 2nd Workshop on Foundation Models in the Wild</a> has been accepted to ICLR 2025. Stay tuned for updates and details.</div>
+									</div>
+									
+									<div class="content-row">
+										<div class="date">Dec 09, 2024</div>
+										<div>Our NeurIPS paper released: <a href="https://arxiv.org/abs/2412.06289" class="purple-link">S<sup>2</sup>FT: Efficient, Scalable and Generalizable LLM Fine-tuning by Structured Sparsity</a>. Check out the <a href="https://github.com/Infini-AI-Lab/S2FT" class="purple-link">code</a> and <a href="https://infini-ai-lab.github.io/S2FT-Page/" class="purple-link">blog</a> for more details.</div>
+									</div>
+
+									<div class="content-row">
+										<div class="date">Sep 30, 2024</div>
+										<div>I'm co-organizing  <a href="https://www.ood-cv.org/" class="purple-link">The 3rd Workshop for Out-of-Distribution Generalization in Computer Vision Foundation Models</a> at ECCV 2024. See you at MiCo Milano.</div>
+									</div>
+									
+									<div class="content-row">
+										<div class="date">July 26, 2024</div>
+										<div>I'm lead-organizing <a href="https://icml-fm-wild.github.io/" class="purple-link">Workshop on Foundation Models in the Wild</a> at ICML 2024. Thanks to all co-organizers and speakers for their support. See you at Vienna.</div>
+									</div>
 								</div>
 							</div>
 						</section>
