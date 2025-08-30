@@ -53,6 +53,7 @@
 					<ul>
 						<li><a href="#one" class="active">About</a></li>
 						<li><a href="#two">News</a></li>
+						<li><a href="#calendar">Calendar</a></li>
 						<li><a href="blog">Blogs</a></li>
 						<li><a href="#three">Research Highlights</a></li>
 						<li><a href="#four">Publications</a></li>
@@ -261,8 +262,6 @@
 									href="https://x.com/FM_in_Wild">Twitter</a> for the latest news, or join us on the <a
 									href="https://join.slack.com/t/foundationmod-r9g8454/shared_invite/zt-2wg96s8cn-xn5QKWH1_SbvItYFuzJcUw">Slack</a> for workshop issues and discussions. I also lead-organize the <a href="https://r2-fm.github.io/">Reliable and Responsible Foundation Models Workshop</a> and the <a href="https://asap-seminar.github.io/">Advances in Sequence modeling from Algorithmic Perspectives (ASAP) Seminar Series</a>.</p>
 							</div>
-
-
 						</section>
 						
 
@@ -409,6 +408,28 @@
 									<div class="content-row">
 										<div class="date">July 26, 2024</div>
 										<div>I'm lead-organizing <a href="https://icml-fm-wild.github.io/" class="purple-link">Workshop on Foundation Models in the Wild</a> at ICML 2024. Thanks to all co-organizers and speakers for their support. See you at Vienna.</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- Calendar -->
+						<section id="calendar">
+							<div class="container">
+								<h3>Calendar</h3>
+								<div class="calendar-container" style="max-width: 1000px; margin: 0 auto;">
+									<div id="calendar-widget" style="background: white; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); padding: 20px;">
+										<div class="google-calendar-embed">
+											<iframe 
+												id="calendar-iframe"
+												src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=eGlueXV5YTJAYW5kcmV3LmNtdS5lZHU&amp;color=%23D50000&amp;mode=month&amp;showTitle=1&amp;showNav=1&amp;showCalendars=1&amp;showTabs=1&amp;showPrint=1&amp;showTz=1&amp;showDate=1" 
+												style="border:solid 1px #777; border-radius: 8px;" 
+												width="100%" 
+												height="600" 
+												frameborder="0" 
+												scrolling="no">
+											</iframe>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -1667,6 +1688,44 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+		<!-- Calendar View Switching Script -->
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				const viewButtons = document.querySelectorAll('.view-btn');
+				const calendarIframe = document.getElementById('calendar-iframe');
+				
+				viewButtons.forEach(button => {
+					button.addEventListener('click', function() {
+						// Remove active class from all buttons
+						viewButtons.forEach(btn => {
+							btn.style.background = '#f1f3f4';
+							btn.style.color = '#333';
+						});
+						
+						// Add active class to clicked button
+						this.style.background = '#4285f4';
+						this.style.color = 'white';
+						
+						// Get the view mode
+						const viewMode = this.getAttribute('data-view');
+						
+						// Update iframe src with new view mode
+						const currentSrc = calendarIframe.src;
+						const newSrc = currentSrc.replace(/mode=[^&]+/, `mode=${viewMode}`);
+						calendarIframe.src = newSrc;
+					});
+				});
+			});
+		</script>
+
+		<!-- Calendar Script -->
+		<script>
+			// Calendar functionality is now handled directly by Google Calendar embed
+			document.addEventListener('DOMContentLoaded', function() {
+				console.log('Calendar loaded successfully');
+			});
+		</script>
 
 	</body>
 </html>
