@@ -467,17 +467,47 @@
 						<!-- Four -->
 							<section id="four">
 								<div class="container">
-									<h3>Publications</h3>
+									<div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+										<h3 style="margin: 0;">Publications</h3>
+										<div class="publication-filter" style="display: flex; gap: 10px; align-items: center;">
+											<button class="filter-btn active" data-filter="selected" style="padding: 5px 15px; background-color: #a385e2; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">Selected</button>
+											<button class="filter-btn" data-filter="all" style="padding: 5px 15px; background-color: #e0e0e0; color: #333; border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">All</button>
+										</div>
+									</div>
 									<style>
 										@import url('https://fonts.googleapis.com/css?family=Newsreader');
 										@import url('https://fonts.googleapis.com/css?family=Iceberg');
 										.publication_font {  /* More specific selector */
 											font-family: "Newsreader", serif;
 										}
+										/* Hide images on narrow screens */
+										@media (max-width: 900px) {
+											.publication .image-container {
+												display: none !important;
+											}
+										}
+										/* Publication filter styles */
+										.publication-item {
+											display: block;
+										}
+										.publication-item.hidden {
+											display: none;
+										}
+										.filter-btn.active {
+											background-color: #a385e2 !important;
+											color: white !important;
+										}
+										.filter-btn:not(.active) {
+											background-color: #e0e0e0 !important;
+											color: #333 !important;
+										}
+										.filter-btn:hover {
+											opacity: 0.8;
+										}
 									</style>
 
 								<div class="publication" style="max-width: 1200px; margin: 20px auto;">
-									<div class="flex-parent" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
+									<div class="flex-parent publication-item publication-selected" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
 										<!-- Image container with fixed width -->
 										<div class="image-container" style="flex: 0 0 350px; overflow-y: auto;">
 										  <div style="position: relative;" onclick="showImage('images/Multiverse.gif')">				
@@ -533,7 +563,7 @@
 										</div>
 									  </div>								
 
-									<div class="flex-parent" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
+									<div class="flex-parent publication-item publication-selected" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
 										<!-- Image container with fixed width -->
 										<div class="image-container" style="flex: 0 0 350px; overflow-y: auto;">
 										  <div style="position: relative;" onclick="showImage('images/ape.jpg')">				
@@ -585,7 +615,7 @@
 									  </div>
 
 									<!-- Pair 2 -->
-									<div class="flex-parent" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
+									<div class="flex-parent publication-item" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
 										<!-- Image container with fixed width -->
 										<div class="image-container" style="flex: 0 0 350px; overflow-y: auto;">
 										<div style="position: relative;" onclick="showImage('images/flatfusion.png')">				
@@ -622,7 +652,7 @@
 									</div>
 									  
 									  <!-- Pair 2 -->
-									  <div class="flex-parent" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
+									  <div class="flex-parent publication-item publication-selected" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
 										<!-- Image container with fixed width -->
 										<div class="image-container" style="flex: 0 0 350px; overflow-y: auto;">
 										  <div style="position: relative;" onclick="showImage('images/vcllm.png')">				
@@ -660,7 +690,7 @@
 									 </div>
 
 									 <!-- Pair 2 -->
-									 <div class="flex-parent" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
+									 <div class="flex-parent publication-item" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
 										<!-- Image container with fixed width -->
 										<div class="image-container" style="flex: 0 0 350px; overflow-y: auto;">
 										  <div style="position: relative;" onclick="showImage('images/seam.png')">				
@@ -697,7 +727,7 @@
 									 </div>
 
 									 <!-- Pair 2 -->
-									 <div class="flex-parent" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
+									 <div class="flex-parent publication-item" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
 										<!-- Image container with fixed width -->
 										<div class="image-container" style="flex: 0 0 350px; overflow-y: auto;">
 										  <div style="position: relative;" onclick="showImage('images/sparsezo.png')">				
@@ -734,7 +764,7 @@
 									 </div>
 
 									  <!-- Pair 3 -->
-									  <div class="flex-parent" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
+									  <div class="flex-parent publication-item publication-selected" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
 										<!-- Image container with fixed width -->
 										<div class="image-container" style="flex: 0 0 350px; overflow-y: auto;">
 										  <div style="position: relative;" onclick="showImage('images/s2ft.jpg')">				
@@ -783,7 +813,7 @@
 									  </div>
 
 									<!-- Pair 2 -->
-									 <div class="flex-parent" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
+									 <div class="flex-parent publication-item" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
 										<!-- Image container with fixed width -->
 										<div class="image-container" style="flex: 0 0 350px; overflow-y: auto;">
 										  <div style="position: relative;" onclick="showImage('images/triforce.png')">				
@@ -830,7 +860,7 @@
 									 </div>
 
 									<!-- Pair 2 -->
-									<div class="flex-parent" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
+									<div class="flex-parent publication-item" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
 										<!-- Image container with fixed width -->
 										<div class="image-container" style="flex: 0 0 350px; overflow-y: auto;">
 										  <div style="position: relative;" onclick="showImage('images/less.png')">				
@@ -872,7 +902,7 @@
 									 </div>		
 									 
 									<!-- Pair 2 -->
-									<div class="flex-parent" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
+									<div class="flex-parent publication-item" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
 										<!-- Image container with fixed width -->
 										<div class="image-container" style="flex: 0 0 350px; overflow-y: auto;">
 										  <div style="position: relative;" onclick="showImage('images/d3g.png')">				
@@ -909,7 +939,7 @@
 									 </div>		
 
 									<!-- Pair 2 -->
-									<div class="flex-parent" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
+									<div class="flex-parent publication-item" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
 										<!-- Image container with fixed width -->
 										<div class="image-container" style="flex: 0 0 350px; overflow-y: auto;">
 										  <div style="position: relative;" onclick="showImage('images/bingo.png')">				
@@ -951,7 +981,7 @@
 									 </div>	
 
 									<!-- Pair 2 -->
-									<div class="flex-parent" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
+									<div class="flex-parent publication-item" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
 										<!-- Image container with fixed width -->
 										<div class="image-container" style="flex: 0 0 350px; overflow-y: auto;">
 										  <div style="position: relative;" onclick="showImage('images/tally.png')">				
@@ -993,7 +1023,7 @@
 									 </div>	
 
 									<!-- Pair 2 -->
-									<div class="flex-parent" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
+									<div class="flex-parent publication-item" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
 										<!-- Image container with fixed width -->
 										<div class="image-container" style="flex: 0 0 350px; overflow-y: auto;">
 										  <div style="position: relative;" onclick="showImage('images/bevfusion.png')">				
@@ -1045,7 +1075,7 @@
 									 </div>	
 
 									<!-- Pair 2 -->
-									<div class="flex-parent" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
+									<div class="flex-parent publication-item" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
 										<!-- Image container with fixed width -->
 										<div class="image-container" style="flex: 0 0 350px; overflow-y: auto;">
 										  <div style="position: relative;" onclick="showImage('images/flatformer.png')">				
@@ -1097,7 +1127,7 @@
 									 </div>		
 									 
 									<!-- Pair 2 -->
-									<div class="flex-parent" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
+									<div class="flex-parent publication-item" style="display: flex; align-items: flex-start; gap: 30px; margin-top: 40px; overflow-y: auto;">
 										<!-- Image container with fixed width -->
 										<div class="image-container" style="flex: 0 0 350px; overflow-y: auto;">
 										  <div style="position: relative;" onclick="showImage('images/wsgnn.png')">				
@@ -1170,6 +1200,54 @@
 										// Run after page load + on resize
 										window.addEventListener('load', adjustAllHeights);
 										window.addEventListener('resize', adjustAllHeights);
+									  </script>
+
+									  <script>
+										// Publication filter functionality
+										function filterPublications(filter) {
+											const publicationItems = document.querySelectorAll('.publication-item');
+											
+											publicationItems.forEach(item => {
+												if (filter === 'all') {
+													item.style.display = 'flex';
+													item.classList.remove('hidden');
+												} else { // selected
+													if (item.classList.contains('publication-selected')) {
+														item.style.display = 'flex';
+														item.classList.remove('hidden');
+													} else {
+														item.style.display = 'none';
+														item.classList.add('hidden');
+													}
+												}
+											});
+											
+											// Recalculate heights after showing/hiding
+											if (typeof adjustAllHeights === 'function') {
+												setTimeout(adjustAllHeights, 100);
+											}
+										}
+										
+										document.addEventListener('DOMContentLoaded', function() {
+											const filterButtons = document.querySelectorAll('.filter-btn');
+											
+											// Initialize: hide non-selected publications by default
+											filterPublications('selected');
+											
+											// Filter button click handlers
+											filterButtons.forEach(button => {
+												button.addEventListener('click', function() {
+													const filter = this.getAttribute('data-filter');
+													
+													// Update active button
+													filterButtons.forEach(btn => btn.classList.remove('active'));
+													this.classList.add('active');
+													
+													// Apply filter
+													filterPublications(filter);
+												});
+											});
+										});
 									  </script>
 
 								
